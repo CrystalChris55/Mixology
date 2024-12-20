@@ -1,0 +1,43 @@
+module Mixology
+{
+
+    item PilkTumbler
+    {
+        DisplayName = Pilk Tumbler,
+        DisplayCategory = WaterContainer,
+        Type = Normal,
+        Weight = 0.2,
+        Icon = GlassTumbler,
+        IconFluidMask = GlassTumbler_Mask,
+        Tooltip = Tooltip_item_RainFromGround,
+        StaticModel = PilkGlassTumbler_Ground,
+        WorldStaticModel = PilkGlassTumbler_Ground,
+        FillFromDispenserSound = GetWaterFromDispenserGlass,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapGlass,
+        FillFromToiletSound = GetWaterFromToilet,
+        Tags = CoffeeMaker,
+
+
+        component FluidContainer
+        {
+            ContainerName   = Glass,
+            RainFactor    = 0.5,
+            capacity        = 0.2,
+            CustomDrinkSound = DrinkingFromMug,
+        }
+    }
+
+    model PilkGlassTumbler_Ground
+    {
+        mesh = WorldItems/Pilk,
+        texture = WorldItems/PilkGlassTumblerWine,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+}

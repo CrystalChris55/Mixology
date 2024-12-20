@@ -1,0 +1,1565 @@
+module MixologyMod
+{
+    imports
+    {
+        Base
+    }
+
+    fluid Pilk
+    {
+        Color  = 1.000 : 0.894 : 0.769,
+        DisplayName = Fluid_Name_Pilk,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Buzzing_Berry
+    {
+        Color  = 0.282 : 0.239 : 0.545,
+        DisplayName = Fluid_Name_Buzzing_Berry,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Bubbly_Surprise
+    {
+        Color  = 0.847 : 0.749 : 0.847,
+        DisplayName = Fluid_Name_Bubbly_Surprise,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Mocha_Fusion
+    {
+        Color = 0.231 : 0.161 : 0.02,
+        DisplayName = Fluid_Name_Mocha_Fusion,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Apple_Mead
+    {
+        Color  = 0.859 : 0.584 : 0.008,
+        DisplayName = Fluid_Name_Apple_Mead,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid French_75
+    {
+        Color  = 0.922 : 0.78 : 0.486,
+        DisplayName = Fluid_Name_French_75,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Black_Russian
+    {
+        Color  = 0.122 : 0.11 : 0.086,
+        DisplayName = Fluid_Name_Black_Russian,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid White_Russian
+    {
+        Color = 0.451 : 0.384 : 0.243,
+        DisplayName = Fluid_Name_White_Russian,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Port_Sangria
+    {
+        Color  = 0.69 : 0.227 : 0.043,
+        DisplayName = Fluid_Name_Port_Sangria,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.08,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Old_Fashioned
+    {
+        Color  = 0.89 : 0.604 : 0.082,
+        DisplayName = Fluid_Name_Old_Fashioned,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Espresso_Martini
+    {
+        Color  = 0.62 : 0.439 : 0.133,
+        DisplayName = Fluid_Name_Espresso_Martini,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Mimosa
+    {
+        Color  = 0.871 : 0.773 : 0.039,
+        DisplayName = Fluid_Name_Mimosa,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Bellini
+    {
+        Color  = 0.961 : 0.718 : 0.09,
+        DisplayName = Fluid_Name_Bellini,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Rum_Runner
+    {
+        Color  = 0.929 : 0.459 : 0.227,
+        DisplayName = Fluid_Name_Rum_Runner,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Mai_Tai
+    {
+        Color  = 0.949 : 0.62 : 0.314,
+        DisplayName = Fluid_Name_Mai_Tai,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Jungle_Juice
+    {
+        Color  = 1 : 0.659 : 0,
+        DisplayName = Fluid_Name_Jungle_Juice,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.1,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Ginger_Punch
+    {
+        Color  = 0.941 : 0.902 : 0.549,
+        DisplayName = Fluid_Name_Ginger_Punch,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Tropical Bliss
+    {
+        Color  = 0.969 : 0.906 : 0.776,
+        DisplayName = Fluid_Name_Tropical_Bliss,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Cranberry Spark
+    {
+        Color  = 0.741 : 0.098 : 0.482,
+        DisplayName = Fluid_Name_Cranberry_Spark,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Strawberry Daiquiri
+    {
+        Color  = 0.922 : 0.039 : 0.184,
+        DisplayName = Fluid_Name_Strawberry_Daiquiri,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Mojito
+    {
+        Color  = 0.835 : 0.922 : 0.804,
+        DisplayName = Fluid_Name_Mojito,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Blue_Lagoon
+    {
+        Color  = 0.31 : 0.663 : 0.859,
+        DisplayName = Fluid_Name_Blue_Lagoon,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Tequila_Sunrise
+    {
+        Color  = 0.961 : 0.776 : 0.067,
+        DisplayName = Fluid_Name_Tequila_Sunrise,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Cosmopolitan
+    {
+        Color  = 0.831 : 0.62 : 0.706,
+        DisplayName = Fluid_Name_Cosmopolitan,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Pina_Colada
+    {
+        Color  = 0.961 : 0.898 : 0.49,
+        DisplayName = Fluid_Name_Pina_Colada,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gin_Fizz
+    {
+        Color  = 0.961 : 0.929 : 0.714,
+        DisplayName = Fluid_Name_Gin_Fizz,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Golden_Ale
+    {
+        Color  = 0.91 : 0.686 : 0.071,
+        DisplayName = Fluid_Name_Golden_Ale,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.05,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Whiskey_Sour
+    {
+        Color  = 0.902 : 0.804 : 0.384,
+        DisplayName = Fluid_Name_Whiskey_Sour,
+
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0.07,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Ginger_Smash
+    {
+        Color  = 0.961 : 0.792 : 0.082,
+        DisplayName = Fluid_Name_Ginger_Smash,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Tropical Cooler
+    {
+        Color  = 0.871 : 0.608 : 0.129,
+        DisplayName = Fluid_Name_Tropical_Cooler,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Virgin_Cosmo
+    {
+        Color  = 1 : 0.322 : 0.2,
+        DisplayName = Fluid_Name_Virgin_Cosmo,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Sunrise_Spritz
+    {
+        Color  = 1 : 0.439 : 0.2,
+        DisplayName = Fluid_Name_Sunrise_Spritz,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Apple_Fizz
+    {
+        Color  = 0.922 : 0.886 : 0.102,
+        DisplayName = Fluid_Name_Apple_Fizz,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Strawberry_Lemonade_Sparkler
+    {
+        Color  = 0.949 : 0.478 : 0.275,
+        DisplayName = Fluid_Name_Strawberry_Lemonade_Sparkler,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Berry_Chocolate_Shake
+    {
+        Color  = 0.435 : 0.22 : 0.549,
+        DisplayName = Fluid_Name_Berry_Chocolate_Shake,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Chocolate_Sweetheart
+    {
+        Color  = 0.349 : 0.251 : 0.031,
+        DisplayName = Fluid_Name_Chocolate_Sweetheart,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Chocolate_Orange_Bliss
+    {
+        Color  = 0.8 : 0.62 : 0.224,
+        DisplayName = Fluid_Name_Chocolate_Orange_Bliss,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Blueberry_Lime_Fizz
+    {
+        Color  = 0.212 : 0.514 : 0.549,
+        DisplayName = Fluid_Name_Blueberry_Lime_Fizz,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Bubblegum_Bliss
+    {
+        Color  = 0.612 : 0.357 : 0.459,
+        DisplayName = Fluid_Name_Bubblegum_Bliss,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Purple_Citrus_Pop
+    {
+        Color  = 0.733 : 0.557 : 0.839,
+        DisplayName = Fluid_Name_Purple_Citrus_Pop,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Iced_Mocha_Mocktail
+    {
+        Color  = 0.369 : 0.31 : 0.114,
+        DisplayName = Fluid_Name_Iced_Mocha_Mocktail,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Spiced_Tea_Spritzer
+    {
+        Color  = 0.871 : 0.851 : 0.416,
+        DisplayName = Fluid_Name_Spiced_Tea_Spritzer,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Lemon_Tea_Cooler
+    {
+        Color  = 0.871 : 0.851 : 0.416,
+        DisplayName = Fluid_Name_Lemon_Tea_Cooler,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Virgin_Bloody_Mary
+    {
+        Color  = 0.647 : 0.165 : 0.165 ,
+        DisplayName = Fluid_Name_Virgin_Bloody_Mary,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Citrus_Berry_Mix
+    {
+        Color  = 0.788 : 0.384 : 0.141,
+        DisplayName = Fluid_Name_Citrus_Berry_Mix,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Orchard_Delight
+    {
+        Color  = 0.267 : 0.118 : 0.412,
+        DisplayName = Fluid_Name_Orchard_Delight,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Honey_Citrus_Spritz
+    {
+        Color  = 0.831 : 0.753 : 0.384,
+        DisplayName = Fluid_Name_Honey_Citrus_Spritz,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gatorwine
+    {
+        Color  = 0.451 : 0.118 : 0.18,
+        DisplayName = Fluid_Name_Gatorwine,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Root Beer
+    {
+        Color  = 0.62 : 0.4 : 0.027,
+        DisplayName = Fluid_Name_Root_Beer,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gatorade Cool Blue
+    {
+        Color  = 0.09 : 0.745 : 0.89,
+        DisplayName = Fluid_Name_Gatorade_Cool_Blue,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gatorade Lemon-Lime
+    {
+        Color  = 0.722 : 0.929 : 0.133,
+        DisplayName = Fluid_Name_Gatorade_Lemon-Lime,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gatorade Fruit Punch
+    {
+        Color  = 1 : 0 : 0,
+        DisplayName = Fluid_Name_Gatorade_Fruit_Punch,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
+    fluid Gatorade Orange
+    {
+        Color  = 1 : 0.631 : 0,
+        DisplayName = Fluid_Name_Gatorade_Orange,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = -15,
+            fatigueChange = 0,
+            hungerChange = 0,
+            stressChange = 0,
+            unhappyChange = 0,
+            calories = 0,
+            carbohydrates = 0,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+}
