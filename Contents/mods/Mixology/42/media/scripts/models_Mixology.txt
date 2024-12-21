@@ -1,0 +1,106 @@
+module Mixology
+{
+    model PilkGlassTumbler_Ground
+    {
+        mesh = WorldItems/Pilk,
+        texture = WorldItems/PilkGlassTumblerWine,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model Gatorade_Ground
+    {
+        mesh = WorldItems/Gatorade,
+        texture = WorldItems/Gatorade,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model TeaStraw_Ground
+    {
+        mesh = WorldItems/TeaStraw,
+        texture = WorldItems/TeaStraw,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model TeaUmbrella_Ground
+    {
+        mesh = WorldItems/TeaUmbrella,
+        texture = WorldItems/TeaUmbrella,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model TumblerStraw_Ground
+    {
+        mesh = WorldItems/TumblerStraw,
+        texture = WorldItems/TumblerStraw,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model TumblerUmbrella_Ground
+    {
+        mesh = WorldItems/TumblerUmbrella,
+        texture = WorldItems/TumblerUmbrella,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model WineStraw_Ground
+    {
+        mesh = WorldItems/WineStraw,
+        texture = WorldItems/WineStraw,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model WineUmbrella_Ground
+    {
+        mesh = WorldItems/WineUmbrella,
+        texture = WorldItems/WineUmbrella,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+}
