@@ -216,5 +216,3 @@ item WineUmbrella
         CustomDrinkSound = DrinkingFromMug,
     }
 }
-
-}
