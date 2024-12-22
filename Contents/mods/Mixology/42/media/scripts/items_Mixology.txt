@@ -21,7 +21,7 @@ module Mixology
 
         component FluidContainer
         {
-            ContainerName   = Glass,
+            ContainerName   = FluidTintTumbler,
             RainFactor    = 0.5,
             capacity        = 0.2,
             CustomDrinkSound = DrinkingFromMug,
@@ -34,8 +34,8 @@ module Mixology
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = Gatorade,
+    IconFluidMask = GatoradeMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Gatorade_Ground,
     WorldStaticModel = Gatorade_Ground,
@@ -48,7 +48,7 @@ module Mixology
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = GatoradeBottle,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -61,8 +61,8 @@ item TeaStraw
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = TeacupStraw,
+    IconFluidMask = TeacupStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TeaStraw_Ground,
     WorldStaticModel = TeaStraw_Ground,
@@ -75,7 +75,7 @@ item TeaStraw
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = TeaStraw,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -88,8 +88,8 @@ item TeaUmbrella
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = TeaCupUmbrella,
+    IconFluidMask = TeaCupUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TeaUmbrella_Ground,
     WorldStaticModel = TeaUmbrella_Ground,
@@ -102,7 +102,7 @@ item TeaUmbrella
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = TeaUmbrella,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -115,8 +115,8 @@ item TumblerStraw
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = TumblerStraw,
+    IconFluidMask = TumblerStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TumblerStraw_Ground,
     WorldStaticModel = TumblerStraw_Ground,
@@ -129,7 +129,7 @@ item TumblerStraw
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = TumblerStraw,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -142,8 +142,8 @@ item TumblerUmbrella
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = TumblerUmbrella,
+    IconFluidMask = TumblerUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TumblerUmbrella_Ground,
     WorldStaticModel = TumblerUmbrella_Ground,
@@ -156,7 +156,7 @@ item TumblerUmbrella
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = TumblerUmbrella,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -169,8 +169,8 @@ item WineStraw
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = WineStraw,
+    IconFluidMask = WineStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = WineStraw_Ground,
     WorldStaticModel = WineStraw_Ground,
@@ -183,7 +183,7 @@ item WineStraw
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = WineStraw,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
@@ -196,8 +196,8 @@ item WineUmbrella
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
-    Icon = GlassTumbler,
-    IconFluidMask = GlassTumbler_Mask,
+    Icon = WineUmbrella,
+    IconFluidMask = WineUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = WineUmbrella_Ground,
     WorldStaticModel = WineUmbrella_Ground,
@@ -210,7 +210,7 @@ item WineUmbrella
 
     component FluidContainer
     {
-        ContainerName   = Glass,
+        ContainerName   = WineUmbrella,
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
