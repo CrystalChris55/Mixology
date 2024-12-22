@@ -451,7 +451,7 @@ module MixologyMod
         }
     }
 
-    fluid Jungle_Juice
+    fluid Jungle Juice
     {
         Color  = 1 : 0.659 : 0,
         DisplayName = Fluid_Name_Jungle_Juice,

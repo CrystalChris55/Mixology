@@ -52,4 +52,12 @@ Fluids_EN = {
         Fluid_Name_Gatorade_Lemon-Lime = "Gatorade Lemon Lime",
         Fluid_Name_Gatorade_Fruit_Punch = "Gatorade Fruit Punch",
         Fluid_Name_Gatorade_Orange = "Gatorade Orange",
+        Fluid_Container_FluidTintTumbler = "Glass Cup",
+        Fluid_Container_GatoradeBottle = "Gatorade Bottle",
+        Fluid_Container_TeaStraw = "Teacup with Straw",
+        Fluid_Container_TeaUmbrella = "Teacup with Umbrella",
+        Fluid_Container_TumblerStraw = "Tumbler with Straw",
+        Fluid_Container_TumblerUmbrella = "Tumbler with Umbrella",
+        Fluid_Container_WineStraw = "Wineglass with Straw",
+        Fluid_Container_WineUmbrella = "Wineglass with Umbrella",
 }
