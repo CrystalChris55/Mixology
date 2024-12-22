@@ -72,6 +72,8 @@ function CheckAndReplaceMixture(item)
             if resultFluid then
                 fluidContainer:addFluid(resultFluid, OutputAmount)
                 print("Mixture created:", mixture.name, " Fluid:", mixture.output.fluid, " Amount:", OutputAmount)
+
+                playBubbleSound()
             else
                 print("Error: Output fluid not registered:", mixture.output.fluid)
             end
@@ -80,6 +82,15 @@ function CheckAndReplaceMixture(item)
         else
             print("Mixture does not meet criteria:", mixture.name)
         end
+    end
+end
+
+function playBubbleSound()
+    local bubbleSounds = { "Bubble1", "Bubble2", "Bubble4", "Bubble5", "Bubble6", "Bubble7", "Bubble8" }
+    local randomSound = bubbleSounds[ZombRand(1, #bubbleSounds + 1)]
+    local player = getPlayer()
+    if player and player:getEmitter() then
+        player:getEmitter():playSound(randomSound)
     end
 end
 
