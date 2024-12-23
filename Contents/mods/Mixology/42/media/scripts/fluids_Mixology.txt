@@ -1562,4 +1562,34 @@ module MixologyMod
             foodSicknessReduction = 0,
         }
     }
+
+    fluid Mouthwash
+        {
+            Color = 0.372 : 0.961 : 1,
+            DisplayName = Fluid_Name_Mouthwash,
+
+            Categories
+            {
+                Beverage,
+                Alcoholic,
+            }
+
+            Properties
+            {
+                thirstChange = -15,
+                fatigueChange = 0,
+                hungerChange = 0,
+                stressChange = -10,
+                unhappyChange = -10,
+                calories = 0,
+                carbohydrates = 0,
+                lipids = 0,
+                proteins = 0,
+                alcohol = 0,
+                fluReduction = 0,
+                painReduction = 0,
+                enduranceChange = 0,
+                foodSicknessReduction = 0,
+            }
+        }
 }

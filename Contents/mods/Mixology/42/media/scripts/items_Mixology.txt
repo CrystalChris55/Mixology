@@ -217,4 +217,786 @@ item WineUmbrella
     }
 }
 
+item BeerGlass
+{
+    DisplayName = BeerGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = BeerGlass,
+    IconFluidMask = BeerGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = BeerGlass_Ground,
+    WorldStaticModel = BeerGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = BeerGlass,
+        RainFactor      = 0.7,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item BootGlass
+{
+    DisplayName = BootGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = BootGlass,
+    IconFluidMask = BootGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = BootGlass_Ground,
+    WorldStaticModel = BootGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = BootGlass,
+        RainFactor      = 0.8,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item CatGlass
+{
+    DisplayName = CatGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = CatGlass,
+    IconFluidMask = CatGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = CatGlass_Ground,
+    WorldStaticModel = CatGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CatGlass,
+        RainFactor      = 0.6,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item Chalice
+{
+    DisplayName = Chalice,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Chalice,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Chalice_Ground,
+    WorldStaticModel = Chalice_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = Chalice,
+        RainFactor      = 0.7,
+        capacity        = 0.35,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item ColaBottle
+{
+    DisplayName = ColaBottle,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = ColaBottle,
+    IconFluidMask = ColaBottleMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = ColaBottle_Ground,
+    WorldStaticModel = ColaBottle_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = ColaBottle,
+        RainFactor      = 0.75,
+        capacity        = 0.5,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item ChampagneGlass
+{
+    DisplayName = ChampagneGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = ChampagneGlass,
+    IconFluidMask = ChampagneGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = ChampagneGlass_Ground,
+    WorldStaticModel = ChampagneGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = ChampagneGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.4,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item ColaGlass
+{
+    DisplayName = ColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = ColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = ColaGlass_Ground,
+    WorldStaticModel = ColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = ColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item CherryColaGlass
+{
+    DisplayName = CherryColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = CherryColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = CherryColaGlass_Ground,
+    WorldStaticModel = CherryColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CherryColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item BlueishColaGlass
+{
+    DisplayName = BlueishColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = BlueishColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = BlueishColaGlass_Ground,
+    WorldStaticModel = BlueishColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = BlueishColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item CyanColaGlass
+{
+    DisplayName = CyanColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = CyanColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = CyanColaGlass_Ground,
+    WorldStaticModel = CyanColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CyanColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item DarkColaGlass
+{
+    DisplayName = DarkColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = DarkColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = DarkColaGlass_Ground,
+    WorldStaticModel = DarkColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = DarkColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item GreenColaGlass
+{
+    DisplayName = GreenColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = GreenColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = GreenColaGlass_Ground,
+    WorldStaticModel = GreenColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GreenColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item IceColaGlass
+{
+    DisplayName = IceColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = IceColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = IceColaGlass_Ground,
+    WorldStaticModel = IceColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = IceColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item LemonColaGlass
+{
+    DisplayName = LemonColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = LemonColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = LemonColaGlass_Ground,
+    WorldStaticModel = LemonColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = LemonColaGlass,
+        RainFactor      = 0.52,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item OrangeColaGlass
+{
+    DisplayName = OrangeColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = OrangeColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = OrangeColaGlass_Ground,
+    WorldStaticModel = OrangeColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = OrangeColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item PinkColaGlass
+{
+    DisplayName = PinkColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = PinkColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = PinkColaGlass_Ground,
+    WorldStaticModel = PinkColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = PinkColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.1,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item PurpleColaGlass
+{
+    DisplayName = PurpleColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = PurpleColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = PurpleColaGlass_Ground,
+    WorldStaticModel = PurpleColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = PurpleColaGlass,
+        RainFactor      = 0.6,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item RainbowColaGlass
+{
+    DisplayName = RainbowColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = RainbowColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = RainbowColaGlass_Ground,
+    WorldStaticModel = RainbowColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = RainbowColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item RedColaGlass
+{
+    DisplayName = RedColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = RedColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = RedColaGlass_Ground,
+    WorldStaticModel = RedColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = RedColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item RosaColaGlass
+{
+    DisplayName = RosaColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.5,
+    Icon = RosaColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = RosaColaGlass_Ground,
+    WorldStaticModel = RosaColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = RosaColaGlass,
+        RainFactor      = 0.65,
+        capacity        = 0.1,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item YellowColaGlass
+{
+    DisplayName = YellowColaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = YellowColaGlass,
+    IconFluidMask = ColaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = YellowColaGlass_Ground,
+    WorldStaticModel = YellowColaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = YellowColaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item CoupeGlass
+{
+    DisplayName = CoupeGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = CoupeGlass,
+    IconFluidMask = CoupeGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = CoupeGlass_Ground,
+    WorldStaticModel = CoupeGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CoupeGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item HurricaneGlass
+{
+    DisplayName = HurricaneGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = HurricaneGlass,
+    IconFluidMask = HurricaneGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = HurricaneGlass_Ground,
+    WorldStaticModel = HurricaneGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = HurricaneGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item MargaritaGlass
+{
+    DisplayName = MargaritaGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = MargaritaGlass,
+    IconFluidMask = MargaritaGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = MargaritaGlass_Ground,
+    WorldStaticModel = MargaritaGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = MargaritaGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item MartiniGlass
+{
+    DisplayName = MartiniGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = MartiniGlass,
+    IconFluidMask = MartiniGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = MartiniGlass_Ground,
+    WorldStaticModel = MartiniGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = MartiniGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item MilkshakeGlass
+{
+    DisplayName = MilkshakeGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = MilkshakeGlass,
+    IconFluidMask = MilkshakeGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = MilkshakeGlass_Ground,
+    WorldStaticModel = MilkshakeGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = MilkshakeGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item Mouthwash
+{
+    DisplayName = Mouthwash,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Mouthwash,
+    IconFluidMask = MouthwashMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Mouthwash_Ground,
+    WorldStaticModel = Mouthwash_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = Mouthwash,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item RockGlass
+{
+    DisplayName = RockGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = RockGlass,
+    IconFluidMask = RockGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = RockGlass_Ground,
+    WorldStaticModel = RockGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = RockGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
+item ShotGlass
+{
+    DisplayName = ShotGlass,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = ShotGlass,
+    IconFluidMask = ShotGlassMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = ShotGlass_Ground,
+    WorldStaticModel = ShotGlass_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = ShotGlass,
+        RainFactor      = 0.5,
+        capacity        = 0.3,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+
 }

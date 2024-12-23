@@ -4,7 +4,7 @@ module Mixology
     {
         mesh = WorldItems/Pilk,
         texture = WorldItems/PilkGlassTumblerWine,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -17,7 +17,7 @@ module Mixology
     {
         mesh = WorldItems/Gatorade,
         texture = WorldItems/Gatorade,
-        scale = 0.1,
+        scale = 0.11,
 
         attachment Bip01_Prop2
         {
@@ -30,7 +30,7 @@ module Mixology
     {
         mesh = WorldItems/TeaStraw,
         texture = WorldItems/TeaStraw,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -43,7 +43,7 @@ module Mixology
     {
         mesh = WorldItems/TeaUmbrella,
         texture = WorldItems/TeaUmbrella,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -56,7 +56,7 @@ module Mixology
     {
         mesh = WorldItems/TumblerStraw,
         texture = WorldItems/TumblerStraw,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -69,7 +69,7 @@ module Mixology
     {
         mesh = WorldItems/TumblerUmbrella,
         texture = WorldItems/TumblerUmbrella,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -82,7 +82,7 @@ module Mixology
     {
         mesh = WorldItems/WineStraw,
         texture = WorldItems/WineStraw,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -95,7 +95,384 @@ module Mixology
     {
         mesh = WorldItems/WineUmbrella,
         texture = WorldItems/WineUmbrella,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model BeerGlass_Ground
+    {
+        mesh = WorldItems/Pint,
+        texture = WorldItems/Pint,
         scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model BootGlass_Ground
+    {
+        mesh = WorldItems/Boot,
+        texture = WorldItems/ShoeGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model CatGlass_Ground
+    {
+        mesh = WorldItems/Cat,
+        texture = WorldItems/CatGlass,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model Chalice_Ground
+    {
+        mesh = WorldItems/Chalice,
+        texture = WorldItems/Chalice,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model ColaBottle_Ground
+    {
+        mesh = WorldItems/ColaBottle,
+        texture = WorldItems/ColaBottle,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model ChampagneGlass_Ground
+    {
+        mesh = WorldItems/ChampagneGlass,
+        texture = WorldItems/ChampagneGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model ColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/ColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model CherryColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/CherryColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model BlueishColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/BlueishColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model CyanColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/CyanColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model DarkColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/DarkColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model GreenColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/GreenColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model IceColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/IceColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model LemonColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/LemonColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model OrangeColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/OrangeColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model PinkColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/PinkColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model PurpleColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/PurpleColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model RainbowColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/RainbowColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model RedColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/RedColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model RosaColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/PinkColaClass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model YellowColaGlass_Ground
+    {
+        mesh = WorldItems/ColaGlass,
+        texture = WorldItems/YellowColaGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model CoupeGlass_Ground
+    {
+        mesh = WorldItems/Coupe,
+        texture = WorldItems/Coupe,
+        scale = 0.12,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model HurricaneGlass_Ground
+    {
+        mesh = WorldItems/Hurricane,
+        texture = WorldItems/Hurricane,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model MargaritaGlass_Ground
+    {
+        mesh = WorldItems/Margarita,
+        texture = WorldItems/Margarita,
+        scale = 0.1,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model MartiniGlass_Ground
+    {
+        mesh = WorldItems/Martini,
+        texture = WorldItems/Martini,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model MilkshakeGlass_Ground
+    {
+        mesh = WorldItems/MilkshakeGlass,
+        texture = WorldItems/MilkshakeGlass,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model Mouthwash_Ground
+    {
+        mesh = WorldItems/Mouthwash,
+        texture = WorldItems/Mouthwash,
+        scale = 0.15,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model RockGlass_Ground
+    {
+        mesh = WorldItems/RocksGlass,
+        texture = WorldItems/RockGlass,
+        scale = 0.12,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+
+    model ShotGlass_Ground
+    {
+        mesh = WorldItems/ShotGlass,
+        texture = WorldItems/ShotGlass,
+        scale = 0.2,
 
         attachment Bip01_Prop2
         {
