@@ -271,33 +271,6 @@ item BootGlass
     }
 }
 
-item CatGlass
-{
-    DisplayName = CatGlass,
-    DisplayCategory = WaterContainer,
-    Type = Normal,
-    Weight = 0.1,
-    Icon = CatGlass,
-    IconFluidMask = CatGlassMASK,
-    Tooltip = Tooltip_item_RainFromGround,
-    StaticModel = CatGlass_Ground,
-    WorldStaticModel = CatGlass_Ground,
-    FillFromDispenserSound = GetWaterFromDispenserGlass,
-    FillFromLakeSound = GetWaterFromLakeBottle,
-    FillFromTapSound = GetWaterFromTapGlass,
-    FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
-
-
-    component FluidContainer
-    {
-        ContainerName   = CatGlass,
-        RainFactor      = 0.6,
-        capacity        = 0.3,
-        CustomDrinkSound = DrinkingFromMug,
-    }
-}
-
 item Chalice
 {
     DisplayName = Chalice,

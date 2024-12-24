@@ -63,7 +63,6 @@ Fluids_EN = {
         Fluid_Container_WineUmbrella = "Wineglass with Umbrella",
         Fluid_Container_BeerGlass = "Beer Glass",
         Fluid_Container_BootGlass = "Boot Glass",
-        Fluid_Container_CatGlass = "Cat Glass",
         Fluid_Container_Chalice = "Chalice",
         Fluid_Container_ColaBottle = "Cola Bottle",
         Fluid_Container_ChampagneGlass = "Champagne Glass",

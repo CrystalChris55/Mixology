@@ -130,19 +130,6 @@ module Mixology
         }
     }
 
-    model CatGlass_Ground
-    {
-        mesh = WorldItems/Cat,
-        texture = WorldItems/CatGlass,
-        scale = 0.1,
-
-        attachment Bip01_Prop2
-        {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
-        }
-    }
-
     model Chalice_Ground
     {
         mesh = WorldItems/Chalice,
@@ -407,7 +394,7 @@ module Mixology
     {
         mesh = WorldItems/Margarita,
         texture = WorldItems/Margarita,
-        scale = 0.1,
+        scale = 0.15,
 
         attachment Bip01_Prop2
         {
@@ -420,7 +407,7 @@ module Mixology
     {
         mesh = WorldItems/Martini,
         texture = WorldItems/Martini,
-        scale = 0.15,
+        scale = 0.18,
 
         attachment Bip01_Prop2
         {
