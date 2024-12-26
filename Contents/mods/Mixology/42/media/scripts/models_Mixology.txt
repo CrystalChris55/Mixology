@@ -104,8 +104,8 @@ module Mixology
 
 		attachment Bip01_Prop2
 		{
-			offset = 0.0195 -0.0629 -0.0120,
-			rotate = 0.0000 0.0000 0.0000,
+			offset = 0.0228 0.0004 0.1391,
+			rotate = -148.6578 89.2127 58.6552,
 		}
 	}
 	model Chalice_Ground

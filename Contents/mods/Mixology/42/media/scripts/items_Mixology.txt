@@ -227,6 +227,8 @@ item BootGlass
     Icon = BootGlass,
     IconFluidMask = BootGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
+    primaryAnimMask = chugjugidle,
+    secondaryAnimMask = chugjugidle,
     StaticModel = BootGlass_Ground,
     WorldStaticModel = BootGlass_Ground,
     FillFromDispenserSound = GetWaterFromDispenserGlass,
@@ -234,6 +236,9 @@ item BootGlass
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
     Tags = CoffeeMaker,
+    EatType = chugjug,
+    IdleAnim = chugjugidle,
+
 
 
     component FluidContainer
