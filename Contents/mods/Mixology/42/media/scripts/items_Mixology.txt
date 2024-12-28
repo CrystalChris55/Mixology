@@ -1,12 +1,13 @@
 module Mixology
 {
-    item Gatorade
+    item GatoradeCool-Blue
 {
-    DisplayName = Gatorade,
+    DisplayName = Gatorade Cool Blue,
     DisplayCategory = WaterContainer,
     Type = Normal,
     Weight = 0.2,
     Icon = Gatorade,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = GatoradeMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Gatorade_Ground,
@@ -24,8 +25,113 @@ module Mixology
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Cool Blue:1.0,
+          }
     }
 }
+
+    item GatoradeLemon-Lime
+{
+    DisplayName = Gatorade Lemon-Lime,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Lemon-Lime:1.0,
+          }
+    }
+}
+
+    item GatoradeOrange
+{
+    DisplayName = Gatorade Orange,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Orange:1.0,
+          }
+    }
+}
+
+    item GatoradeFruit-Punch
+{
+    DisplayName = Gatorade Fruit Punch,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Fruit Punch:1.0,
+          }
+    }
+}
+
 
 item TeaStraw
 {
@@ -34,6 +140,7 @@ item TeaStraw
     Type = Normal,
     Weight = 0.2,
     Icon = TeacupStraw,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = TeacupStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TeaStraw_Ground,
@@ -52,7 +159,7 @@ item TeaStraw
         RainFactor    = 0.5,
         capacity        = 0.2,
         CustomDrinkSound = DrinkingFromMug,
-    }
+       }
 }
 
 item TeaUmbrella
@@ -62,6 +169,7 @@ item TeaUmbrella
     Type = Normal,
     Weight = 0.2,
     Icon = TeaCupUmbrella,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = TeaCupUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TeaUmbrella_Ground,
@@ -90,6 +198,7 @@ item TumblerStraw
     Type = Normal,
     Weight = 0.2,
     Icon = TumblerStraw,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = TumblerStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TumblerStraw_Ground,
@@ -117,6 +226,7 @@ item TumblerUmbrella
     Type = Normal,
     Weight = 0.2,
     Icon = TumblerUmbrella,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = TumblerUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = TumblerUmbrella_Ground,
@@ -144,6 +254,7 @@ item WineStraw
     Type = Normal,
     Weight = 0.2,
     Icon = WineStraw,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = WineStrawMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = WineStraw_Ground,
@@ -171,6 +282,7 @@ item WineUmbrella
     Type = Normal,
     Weight = 0.2,
     Icon = WineUmbrella,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = WineUmbrellaMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = WineUmbrella_Ground,
@@ -198,6 +310,7 @@ item BeerGlass
     Type = Normal,
     Weight = 0.1,
     Icon = BeerGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = BeerGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = BeerGlass_Ground,
@@ -237,7 +350,6 @@ item BootGlass
     FillFromToiletSound = GetWaterFromToilet,
     Tags = CoffeeMaker,
     EatType = chugjug,
-    IdleAnim = chugjugidle,
 
 
 
@@ -257,6 +369,7 @@ item Chalice
     Type = Normal,
     Weight = 0.1,
     Icon = Chalice,
+    secondaryAnimMask = drinkIdle,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Chalice_Ground,
     WorldStaticModel = Chalice_Ground,
@@ -283,6 +396,7 @@ item ColaBottle
     Type = Normal,
     Weight = 0.1,
     Icon = ColaBottle,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaBottleMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = ColaBottle_Ground,
@@ -297,9 +411,13 @@ item ColaBottle
     component FluidContainer
     {
         ContainerName   = ColaBottle,
-        RainFactor      = 0.75,
-        capacity        = 0.5,
+        RainFactor      = 0.7,
+        capacity        = 0.35,
         CustomDrinkSound = DrinkingFromMug,
+        Fluids
+          {
+           fluid           = Cola:1.0,
+          }
     }
 }
 
@@ -310,6 +428,7 @@ item ChampagneGlass
     Type = Normal,
     Weight = 0.1,
     Icon = ChampagneGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ChampagneGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = ChampagneGlass_Ground,
@@ -337,6 +456,7 @@ item ColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = ColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = ColaGlass_Ground,
@@ -364,6 +484,7 @@ item CherryColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = CherryColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = CherryColaGlass_Ground,
@@ -391,6 +512,7 @@ item BlueishColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = BlueishColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = BlueishColaGlass_Ground,
@@ -419,6 +541,7 @@ item CyanColaGlass
     Weight = 0.1,
     Icon = CyanColaGlass,
     IconFluidMask = ColaGlassMASK,
+    secondaryAnimMask = drinkIdle,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = CyanColaGlass_Ground,
     WorldStaticModel = CyanColaGlass_Ground,
@@ -446,6 +569,7 @@ item DarkColaGlass
     Weight = 0.1,
     Icon = DarkColaGlass,
     IconFluidMask = ColaGlassMASK,
+    secondaryAnimMask = drinkIdle,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = DarkColaGlass_Ground,
     WorldStaticModel = DarkColaGlass_Ground,
@@ -472,6 +596,7 @@ item GreenColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = GreenColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = GreenColaGlass_Ground,
@@ -499,6 +624,7 @@ item IceColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = IceColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = IceColaGlass_Ground,
@@ -526,6 +652,7 @@ item LemonColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = LemonColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = LemonColaGlass_Ground,
@@ -553,6 +680,7 @@ item OrangeColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = OrangeColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = OrangeColaGlass_Ground,
@@ -581,6 +709,7 @@ item PinkColaGlass
     Weight = 0.1,
     Icon = PinkColaGlass,
     IconFluidMask = ColaGlassMASK,
+    secondaryAnimMask = drinkIdle,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = PinkColaGlass_Ground,
     WorldStaticModel = PinkColaGlass_Ground,
@@ -607,6 +736,7 @@ item PurpleColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = PurpleColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = PurpleColaGlass_Ground,
@@ -634,6 +764,7 @@ item RainbowColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = RainbowColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = RainbowColaGlass_Ground,
@@ -661,6 +792,7 @@ item RedColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = RedColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = RedColaGlass_Ground,
@@ -688,6 +820,7 @@ item RosaColaGlass
     Type = Normal,
     Weight = 0.5,
     Icon = RosaColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = RosaColaGlass_Ground,
@@ -715,6 +848,7 @@ item YellowColaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = YellowColaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ColaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = YellowColaGlass_Ground,
@@ -742,6 +876,7 @@ item CoupeGlass
     Type = Normal,
     Weight = 0.1,
     Icon = CoupeGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = CoupeGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = CoupeGlass_Ground,
@@ -769,6 +904,7 @@ item HurricaneGlass
     Type = Normal,
     Weight = 0.1,
     Icon = HurricaneGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = HurricaneGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = HurricaneGlass_Ground,
@@ -796,6 +932,7 @@ item MargaritaGlass
     Type = Normal,
     Weight = 0.1,
     Icon = MargaritaGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = MargaritaGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = MargaritaGlass_Ground,
@@ -823,6 +960,7 @@ item MartiniGlass
     Type = Normal,
     Weight = 0.1,
     Icon = MartiniGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = MartiniGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = MartiniGlass_Ground,
@@ -850,6 +988,7 @@ item MilkshakeGlass
     Type = Normal,
     Weight = 0.1,
     Icon = MilkshakeGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = MilkshakeGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = MilkshakeGlass_Ground,
@@ -877,6 +1016,7 @@ item Mouthwash
     Type = Normal,
     Weight = 0.1,
     Icon = Mouthwash,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = MouthwashMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Mouthwash_Ground,
@@ -894,7 +1034,12 @@ item Mouthwash
         RainFactor      = 0.5,
         capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
-    }
+
+        Fluids
+          {
+           fluid           = Mouthwash:1.0,
+          }
+       }
 }
 
 item RockGlass
@@ -904,6 +1049,7 @@ item RockGlass
     Type = Normal,
     Weight = 0.1,
     Icon = RockGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = RockGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = RockGlass_Ground,
@@ -931,6 +1077,7 @@ item ShotGlass
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = ShotGlass_Ground,
@@ -958,6 +1105,7 @@ item Bailey
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Bailey_Ground,
@@ -973,8 +1121,12 @@ item Bailey
     {
         ContainerName   = Bailey,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+            	Fluids
+            		{
+                	fluid           = Baileys:1.0,
+            		}
     }
 }
 
@@ -985,6 +1137,7 @@ item Aperol
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Aperol_Ground,
@@ -1000,8 +1153,12 @@ item Aperol
     {
         ContainerName   = Aperol,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+            	Fluids
+            		{
+                	fluid           = Aperol:1.0,
+            		}
     }
 }
 
@@ -1012,6 +1169,7 @@ item Bols
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Bols_Ground,
@@ -1027,8 +1185,12 @@ item Bols
     {
         ContainerName   = Bols,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+            	Fluids
+            		{
+                	fluid           = Bols:1.0,
+            		}
     }
 }
 
@@ -1039,6 +1201,7 @@ item Fireball
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Fireball_Ground,
@@ -1054,8 +1217,12 @@ item Fireball
     {
         ContainerName   = Fireball,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+            	Fluids
+            		{
+                	fluid           = Fireball:1.0,
+            		}
     }
 }
 
@@ -1066,6 +1233,7 @@ item IceWine
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = IceWine_Ground,
@@ -1081,8 +1249,12 @@ item IceWine
     {
         ContainerName   = IceWine,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = IceWine:1.0,
+            		}
     }
 }
 
@@ -1093,6 +1265,7 @@ item Kvass
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Kvass_Ground,
@@ -1108,8 +1281,12 @@ item Kvass
     {
         ContainerName   = Kvass,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Kvass:1.0,
+            		}
     }
 }
 
@@ -1120,6 +1297,7 @@ item Moonshine
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Moonshine_Ground,
@@ -1135,8 +1313,12 @@ item Moonshine
     {
         ContainerName   = Moonshine,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 2.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Moonshine:1.0,
+            		}
     }
 }
 
@@ -1147,6 +1329,7 @@ item SchnappsSigma
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = SchnappsSigma_Ground,
@@ -1162,8 +1345,12 @@ item SchnappsSigma
     {
         ContainerName   = SchnappsSigma,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = SchnappsSigma:1.0,
+            		}
     }
 }
 
@@ -1174,6 +1361,7 @@ item SchnappsMint
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = SchnappsMint_Ground,
@@ -1189,8 +1377,12 @@ item SchnappsMint
     {
         ContainerName   = SchnappsMint,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = SchnappsMint:1.0,
+            		}
     }
 }
 
@@ -1201,6 +1393,7 @@ item Soju
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Soju_Ground,
@@ -1216,8 +1409,12 @@ item Soju
     {
         ContainerName   = Soju,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 0.5,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Soju:1.0,
+            		}
     }
 }
 
@@ -1228,6 +1425,7 @@ item MulledWine
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = MulledWine_Ground,
@@ -1243,9 +1441,14 @@ item MulledWine
     {
         ContainerName   = MulledWine,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
-    }
+ 
+             	Fluids
+            		{
+                	fluid           = MulledWine:1.0,
+            		}
+     }
 }
 
 item Sambuca
@@ -1255,6 +1458,7 @@ item Sambuca
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Sambuca_Ground,
@@ -1270,8 +1474,12 @@ item Sambuca
     {
         ContainerName   = Sambuca,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Sambuca:1.0,
+            		}
     }
 }
 
@@ -1282,6 +1490,7 @@ item Sake
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Sake_Ground,
@@ -1297,8 +1506,12 @@ item Sake
     {
         ContainerName   = Sake,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 0.5,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Sake:1.0,
+            		}
     }
 }
 
@@ -1309,6 +1522,7 @@ item Jeagermeister
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Jaegermeister_Ground,
@@ -1324,8 +1538,12 @@ item Jeagermeister
     {
         ContainerName   = Jeagermeister,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Jeagermeister:1.0,
+            		}
     }
 }
 
@@ -1336,6 +1554,7 @@ item Ouzo
     Type = Normal,
     Weight = 0.1,
     Icon = ShotGlass,
+    secondaryAnimMask = drinkIdle,
     IconFluidMask = ShotGlassMASK,
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Ouzo_Ground,
@@ -1351,8 +1570,12 @@ item Ouzo
     {
         ContainerName   = Ouzo,
         RainFactor      = 0.5,
-        capacity        = 0.3,
+        capacity        = 1.0,
         CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Ouzo:1.0,
+            		}
     }
 }
 
