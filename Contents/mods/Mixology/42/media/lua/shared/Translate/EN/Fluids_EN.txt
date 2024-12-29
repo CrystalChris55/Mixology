@@ -119,5 +119,18 @@ Fluids_EN = {
         Fluid_Container_Sake = "Sake Bottle",
         Fluid_Container_Jeagermeister = "Jeagermeister Bottle",
         Fluid_Container_Ouzo = "Ouzo Bottle",
+        Fluid_Container_RocksWithSkewer = "Rocks Glass with Skewer",
+        Fluid_Container_RocksWithIcecubes = "Rocks Glass with Ice",
+        Fluid_Container_MilkshakeWithStraw = "Milkshake Glass with Straw",
+        Fluid_Container_MartiniWithSkewer = "Martini Glass with Skewer",
+        Fluid_Container_MartiniWithIcecubes = "Martini Glass with Ice",
+        Fluid_Container_MargaritaWithUmbrella = "Margarita Glass with Umbrella",
+        Fluid_Container_MargaritaWithStraw = "Margarita Glass with Straw",
+        Fluid_Container_HurricaneWithUmbrella = "Hurricane Glass with Umbrella",
+        Fluid_Container_HurricaneWithSlice = "Hurricane Glass with Slice",
+        Fluid_Container_CoupeWithSkewer = "Coupe Glass with Skewer",
+        Fluid_Container_CoupeWithIcecubes = "Coupe Glass with Ice",
+        Fluid_Container_ChampagneWithStraw = "Champagne Glass with Straw",
+        Fluid_Container_ChampagneWithSlice = "Champagne Glass with Slice",
 
 }

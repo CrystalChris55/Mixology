@@ -1,0 +1,166 @@
+module Mixology
+{   
+item GatoradeCool-Blue
+{
+    DisplayName = Gatorade Cool Blue,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Icons/Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Cool Blue:1.0,
+          }
+    }
+}
+
+    item GatoradeLemon-Lime
+{
+    DisplayName = Gatorade Lemon-Lime,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Icons/Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Lemon-Lime:1.0,
+          }
+    }
+}
+
+    item GatoradeOrange
+{
+    DisplayName = Gatorade Orange,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Icons/Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Orange:1.0,
+          }
+    }
+}
+
+    item GatoradeFruit-Punch
+{
+    DisplayName = Gatorade Fruit Punch,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.2,
+    Icon = Icons/Gatorade,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/GatoradeMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Gatorade_Ground,
+    WorldStaticModel = Gatorade_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = GatoradeBottle,
+        RainFactor    = 0.5,
+        capacity        = 0.2,
+        CustomDrinkSound = DrinkingFromMug,
+
+        Fluids
+          {
+           fluid           = Gatorade Fruit Punch:1.0,
+          }
+    }
+}
+item ColaBottle
+{
+    DisplayName = ColaBottle,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/ColaBottle,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/ColaBottleMASK,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = ColaBottle_Ground,
+    WorldStaticModel = ColaBottle_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = ColaBottle,
+        RainFactor      = 0.7,
+        capacity        = 0.35,
+        CustomDrinkSound = DrinkingFromMug,
+        Fluids
+          {
+           fluid           = Cola:1.0,
+          }
+    }
+}
+
+}

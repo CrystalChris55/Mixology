@@ -606,4 +606,306 @@ module Mixology
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
+	model MilkshakeWithStraw_Ground
+	{
+		mesh = WorldItems/MilkshakeWithStraw,
+		texture = WorldItems/MilkshakeStraw,
+		scale = 0.13,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0583 -0.0173,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model MargaritaWithStraw_Ground
+	{
+		mesh = WorldItems/MargaritaWithStraw,
+		texture = WorldItems/MargaritaStraw,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0082 -0.1068 -0.0156,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HurricaneWithUmbrella_Ground
+	{
+		mesh = WorldItems/HurricaneWithUmbrella,
+		texture = WorldItems/HurricaneStraw,
+		scale = 0.08,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0403 -0.0115,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HurricaneWithSlice_Ground
+	{
+		mesh = WorldItems/HurricaneWithSlice,
+		texture = WorldItems/HurricaneSlice,
+		scale = 0.08,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0403 -0.0115,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CoupeWithSkewer_Ground
+{
+	mesh = WorldItems/CoupeWithSkewer,
+	texture = WorldItems/CoupeSkewer,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model CoupeWithIcecubes_Ground
+{
+	mesh = WorldItems/CoupeWithIcecubes,
+	texture = WorldItems/CoupeSlice,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model ChampagneWithSlice_Ground
+{
+	mesh = WorldItems/ChampagneWithSlice,
+	texture = WorldItems/ChampagneSlice,
+	scale = 0.13,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model MartiniWithSkewer_Ground
+{
+	mesh = WorldItems/MartiniWithSkewer,
+	texture = WorldItems/MartiniSkewer,
+	scale = 0.13,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model MargaritaWithUmbrella_Ground
+	{
+		mesh = WorldItems/MargaritaWithUmbrella,
+		texture = WorldItems/MargaritaUmbrella,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0016 -0.1068 -0.0173,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ChampagneWithStraw_Ground
+{
+	mesh = WorldItems/ChampagneWithStraw,
+	texture = WorldItems/ChampagneStraw,
+	scale = 0.13,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model MartiniWithIcecubes_Ground
+{
+	mesh = WorldItems/MartiniWithIcecubes,
+	texture = WorldItems/MartiniSlice,
+	scale = 0.13,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model RocksWithIcecubes_Ground
+{
+	mesh = WorldItems/RocksWithIcecubes,
+	texture = WorldItems/RockIcecubes,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model RocksWithSkewer_Ground
+{
+	mesh = WorldItems/RocksWithSkewer,
+	texture = WorldItems/RockSkewer,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+
+	model CherryJar_Ground
+{
+	mesh = WorldItems/CherryJar,
+	texture = WorldItems/CherryJar,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model SkewerPackage_Ground
+{
+	mesh = WorldItems/SkewerPackage,
+	texture = WorldItems/SkewerPackage,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model UmbrellaPackage_Ground
+{
+	mesh = WorldItems/UmbrellaPackage,
+	texture = WorldItems/UmbrellaPackage,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model StrawPackage_Ground
+{
+	mesh = WorldItems/UmbrellaPackage,
+	texture = WorldItems/UmbrellaPackage,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model MintPackage_Ground
+{
+	mesh = WorldItems/MintPackage,
+	texture = WorldItems/MintPackage,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model Skewer_Ground
+{
+	mesh = WorldItems/Skewer,
+	texture = WorldItems/Skewer,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model IceBag_Ground
+{
+	mesh = WorldItems/IceBag,
+	texture = WorldItems/IceBag,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model Icecube_Ground
+{
+	mesh = WorldItems/Icecube,
+	texture = WorldItems/Icecube,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+
+	model PineAppleSlice_Ground
+{
+	mesh = WorldItems/PineAppleSlice,
+	texture = WorldItems/PineAppleSlice,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model LimeSlice_Ground
+{
+	mesh = WorldItems/LimeSlice,
+	texture = WorldItems/LimeSlice,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model LemonSlice_Ground
+{
+	mesh = WorldItems/LemonSlice,
+	texture = WorldItems/LemonSlice,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model OrangeSlice_Ground
+{
+	mesh = WorldItems/LemonSlice,
+	texture = WorldItems/OrangeSlice,
+	scale = 0.09,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
 }
