@@ -1,0 +1,1 @@
+This is a dummy mod to exemplify how you can create a fluid addon to Mixology to implement your own fluid combinations or add your own fluids to the mod for use.

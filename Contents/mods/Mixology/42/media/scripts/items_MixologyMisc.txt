@@ -122,8 +122,7 @@ item LimeSlice
 {
     DisplayName = Lime Slice,
     DisplayCategory = Food,
-    Type = Drainable,
-    UseDelta = 0.05,    
+    Tags = IsFruitSlice,
     Weight = 0.2,
     Icon = Icons/LimeSlice,
     StaticModel = LimeSlice_Ground,
@@ -134,8 +133,7 @@ item LemonSlice
 {
     DisplayName = Lemon Slice,
     DisplayCategory = Food,
-    Type = Drainable,
-    UseDelta = 0.05,    
+    Tags = IsFruitSlice,
     Weight = 0.2,
     Icon = Icons/LemonSlice,
     StaticModel = LemonSlice_Ground,
@@ -146,8 +144,7 @@ item OrangeSlice
 {
     DisplayName = Orange Slice,
     DisplayCategory = Food,
-    Type = Drainable,
-    UseDelta = 0.05,    
+    Tags = IsFruitSlice,
     Weight = 0.2,
     Icon = Icons/OrangeSlice,
     StaticModel = OrangeSlice_Ground,
@@ -158,8 +155,7 @@ item PineAppleSlice
 {
     DisplayName = Pineapple Slice,
     DisplayCategory = Food,
-    Type = Drainable,
-    UseDelta = 0.05,    
+    Tags = IsFruitSlice,
     Weight = 0.2,
     Icon = Icons/PineAppleSlice,
     StaticModel = PineAppleSlice_Ground,

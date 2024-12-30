@@ -8,7 +8,7 @@ module Mixology
 
 		attachment Bip01_Prop2
 		{
-			offset = -0.0129 -0.0314 -0.0105,
+			offset = 0.0000 -0.0231 -0.0241,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
@@ -762,7 +762,6 @@ module Mixology
 		rotate = 0.0000 0.0000 0.0000,
 	}
 }
-
 	model CherryJar_Ground
 {
 	mesh = WorldItems/CherryJar,
@@ -859,7 +858,6 @@ module Mixology
 		rotate = 0.0000 0.0000 0.0000,
 	}
 }
-
 	model PineAppleSlice_Ground
 {
 	mesh = WorldItems/PineAppleSlice,
