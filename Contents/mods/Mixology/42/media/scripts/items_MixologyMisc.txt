@@ -26,6 +26,7 @@ item Icecube_Melted
      DisplayCategory = Food,
      Type = Food,
      Weight = 0.01,
+     WorldStaticModel = Icecube_Melted_Ground,
      Icon = Puddle_Generic,
      ThirstChange = -2,
 
@@ -63,7 +64,7 @@ item SkewerPack
     DisplayCategory = Food,
     Type = Normal,
     Weight = 0.2,
-    Icon = Icons/MintPackage,
+    Icon = Icons/SkewerPackage,
     StaticModel = SkewerPackage_Ground,
     WorldStaticModel = SkewerPackage_Ground,
 

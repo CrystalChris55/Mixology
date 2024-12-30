@@ -1,8 +1,44 @@
 module Mixology
 {
-	model Gatorade_Ground
+	model Gatorade_Blue_Ground
 	{
-		mesh = WorldItems/Gatorade,
+		mesh = WorldItems/GatoradeBlue,
+		texture = WorldItems/Gatorade,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0231 -0.0241,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Gatorade_Punch_Ground
+	{
+		mesh = WorldItems/GatoradePunch,
+		texture = WorldItems/Gatorade,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0231 -0.0241,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Gatorade_Orange_Ground
+	{
+		mesh = WorldItems/GatoradeOrange,
+		texture = WorldItems/Gatorade,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 -0.0231 -0.0241,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Gatorade_Lemon_Ground
+	{
+		mesh = WorldItems/GatoradeLemon,
 		texture = WorldItems/Gatorade,
 		scale = 0.11,
 
@@ -800,8 +836,8 @@ module Mixology
 }
 	model StrawPackage_Ground
 {
-	mesh = WorldItems/UmbrellaPackage,
-	texture = WorldItems/UmbrellaPackage,
+	mesh = WorldItems/StrawPackage,
+	texture = WorldItems/StrawPackage,
 	scale = 0.09,
 
 	attachment Bip01_Prop2
@@ -826,7 +862,7 @@ module Mixology
 {
 	mesh = WorldItems/Skewer,
 	texture = WorldItems/Skewer,
-	scale = 0.09,
+	scale = 0.009,
 
 	attachment Bip01_Prop2
 	{
@@ -906,4 +942,106 @@ module Mixology
 		rotate = 0.0000 0.0000 0.0000,
 	}
 }
+	model StrawberrySyrup_Ground
+{
+	mesh = WorldItems/StrawberrySyrup,
+	texture = WorldItems/StrawberrySyrup,
+	scale = 0.2,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model PumpkinSyrup_Ground
+{
+	mesh = WorldItems/PumpkinSyrup,
+	texture = WorldItems/PumpkinSyrup,
+	scale = 0.2,
+
+	attachment Bip01_Prop2
+	{
+		offset = 0.0123 -0.1068 0.0000,
+		rotate = 0.0000 0.0000 0.0000,
+	}
+}
+	model Henessy_Ground
+	{
+		mesh = WorldItems/Henessy,
+		texture = WorldItems/HenessyBottle,
+		scale = 0.14,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0205 -0.1627 -0.0066,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Redbull_Ground
+	{
+		mesh = WorldItems/Redbull,
+		texture = WorldItems/Redbull,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0024 -0.0238 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Monster_Black_Ground
+	{
+		mesh = WorldItems/MonsterBlack,
+		texture = WorldItems/MonsterBlack,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0024 -0.0238 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Monster_White_Ground
+	{
+		mesh = WorldItems/MonsterWhite,
+		texture = WorldItems/MonsterWhite,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0024 -0.0238 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Monster_Loco_Ground
+	{
+		mesh = WorldItems/MonsterLoco,
+		texture = WorldItems/MonsterLoco,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0024 -0.0238 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Monster_Punch_Ground
+	{
+		mesh = WorldItems/MonsterPunch,
+		texture = WorldItems/MonsterPunch,
+		scale = 0.11,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0024 -0.0238 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Icecube_Melted_Ground
+	{
+		mesh = WorldItems/Puddle,
+		texture = WorldItems/Puddle,
+		scale = 0.09,
+	}
 }

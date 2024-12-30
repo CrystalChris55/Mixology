@@ -453,7 +453,7 @@ KnownMixtures = {
         name = "Aviation",
         inputs = {
             { fluid = "Gin",               minAmount = 0.02 },
-            { fluid = "MaraschinoLiqueur", minAmount = 0.02 },
+            { fluid = "Bols", minAmount = 0.02 },
             { fluid = "JuiceLemon",        minAmount = 0.01 },
         },
         output = { fluid = "Aviation", amount = 0.05 }
@@ -474,5 +474,81 @@ KnownMixtures = {
             { fluid = "Vermouth", minAmount = 0.02 },
         },
         output = { fluid = "Manhattan", amount = 0.05 }
+    },
+    {
+        name = "Margarita",
+        inputs = {
+            { fluid = "Tequila",   minAmount = 0.02 },
+            { fluid = "Bols",      minAmount = 0.02 },
+            { fluid = "JuiceLime", minAmount = 0.01 },
+        },
+        output = { fluid = "Margarita", amount = 0.05 }
+    },
+    {
+        name = "Martini",
+        inputs = {
+            { fluid = "Gin",      minAmount = 0.03 },
+            { fluid = "Vermouth", minAmount = 0.02 },
+        },
+        output = { fluid = "Martini", amount = 0.05 }
+    },
+    {
+        name = "Bloody Mary",
+        inputs = {
+            { fluid = "Vodka",       minAmount = 0.02 },
+            { fluid = "JuiceTomato", minAmount = 0.02 },
+            { fluid = "JuiceLemon",  minAmount = 0.01 },
+        },
+        output = { fluid = "Bloody Mary", amount = 0.05 }
+    },
+    {
+        name = "Negroni",
+        inputs = {
+            { fluid = "Gin",      minAmount = 0.02 },
+            { fluid = "Vermouth", minAmount = 0.02 },
+            { fluid = "Aperol",   minAmount = 0.01 },
+        },
+        output = { fluid = "Negroni", amount = 0.05 }
+    },
+    {
+        name = "ChocolateMilkshake",
+        inputs = {
+            { fluid = "MilkChocolate", minAmount = 0.03 },
+            { fluid = "CowMilk",       minAmount = 0.02 },
+        },
+        output = { fluid = "ChocolateMilkshake", amount = 0.05 }
+    },
+    {
+        name = "StrawberryMilkshake",
+        inputs = {
+            { fluid = "StrawberrySyrup", minAmount = 0.03 },
+            { fluid = "CowMilk",        minAmount = 0.02 },
+        },
+        output = { fluid = "StrawberryMilkshake", amount = 0.05 }
+    },
+    {
+        name = "VanillaMilkshake",
+        inputs = {
+            { fluid = "SimpleSyrup", minAmount = 0.03 },
+            { fluid = "CowMilk",     minAmount = 0.02 },
+        },
+        output = { fluid = "VanillaMilkshake", amount = 0.05 }
+    },
+    {
+        name = "PumpkinSpiceLatte",
+        inputs = {
+            { fluid = "Coffee",          minAmount = 0.02 },
+            { fluid = "PumpkinSyrup", minAmount = 0.01 }, 
+            { fluid = "CowMilk",         minAmount = 0.02 },
+        },
+        output = { fluid = "PumpkinSpiceLatte", amount = 0.05 }
+    },
+    {
+        name = "Dragonbreath",
+        inputs = {
+            { fluid = "Mouthwash",     minAmount = 0.02 },
+            { fluid = "SodaBlueberry", minAmount = 0.03 },
+        },
+        output = { fluid = "Dragonbreath", amount = 0.05 }
     },
 }

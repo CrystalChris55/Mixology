@@ -511,4 +511,35 @@ item Ouzo
     }
 }
 
+item Hennessy
+{
+    DisplayName = Hennessy,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/HenessyBottle,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/HenessyBottleMask,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Henessy_Ground,
+    WorldStaticModel = Henessy_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker,
+
+
+    component FluidContainer
+    {
+        ContainerName   = Hennessy,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Cognac:1.0,
+            		}
+    }
+}
 }
