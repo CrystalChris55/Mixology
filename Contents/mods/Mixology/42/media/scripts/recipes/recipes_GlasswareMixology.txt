@@ -5,14 +5,13 @@ module Mixology
 	{
         timedAction = SliceFood_Surface,
 		Time = 70,
-		OnCreate = Recipe.OnCreate.ChampagneWithSlice,
 		Tags = AnySurfaceCraft;Cooking,
 		category = Cooking,
 		xpAward = Cooking:8,
 		inputs
 		{       
-                        item 1 [Mixology.ChampagneGlass] mode:destroy,
 			item 1 tags[IsFruitSlice] mode:destroy,
+                        item 1 [Mixology.ChampagneGlass] mode:destroy,
 		}
 		outputs
 		{

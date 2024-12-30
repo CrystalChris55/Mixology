@@ -424,4 +424,55 @@ KnownMixtures = {
         },
         output = { fluid = "Gatorwine", amount = 0.04 }
     },
+    {
+        name = "Kamikaze",
+        inputs = {
+            { fluid = "Vodka",     minAmount = 0.02 },
+            { fluid = "JuiceLime", minAmount = 0.02 },
+            { fluid = "Bols", minAmount = 0.01 },
+        },
+        output = { fluid = "Kamikaze", amount = 0.05 }
+    },
+    {
+        name = "Jägerbomb",
+        inputs = {
+            { fluid = "Jägermeister", minAmount = 0.02 },
+            { fluid = "EnergyDrink",  minAmount = 0.03 },
+        },
+        output = { fluid = "Jägerbomb", amount = 0.05 }
+    },
+    {
+        name = "B52",
+        inputs = {
+            { fluid = "Kahlua",       minAmount = 0.02 },
+            { fluid = "Baileys",      minAmount = 0.02 },
+        },
+        output = { fluid = "B52", amount = 0.05 }
+    },
+    {
+        name = "Aviation",
+        inputs = {
+            { fluid = "Gin",               minAmount = 0.02 },
+            { fluid = "MaraschinoLiqueur", minAmount = 0.02 },
+            { fluid = "JuiceLemon",        minAmount = 0.01 },
+        },
+        output = { fluid = "Aviation", amount = 0.05 }
+    },
+    {
+        name = "Sidecar",
+        inputs = {
+            { fluid = "Cognac",     minAmount = 0.02 },
+            { fluid = "Bols",  minAmount = 0.02 },
+            { fluid = "JuiceLemon", minAmount = 0.01 },
+        },
+        output = { fluid = "Sidecar", amount = 0.05 }
+    },
+    {
+        name = "Manhattan",
+        inputs = {
+            { fluid = "Whiskey",  minAmount = 0.03 },
+            { fluid = "Vermouth", minAmount = 0.02 },
+        },
+        output = { fluid = "Manhattan", amount = 0.05 }
+    },
 }
