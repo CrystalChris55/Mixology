@@ -48,7 +48,7 @@ module MixologyMod
         }
     }
 
-    fluid Buzzing_Berry
+    fluid BuzzingBerry
     {
         Color  = 0.282 : 0.239 : 0.545,
         DisplayName = Fluid_Name_Buzzing_Berry,
@@ -90,7 +90,7 @@ module MixologyMod
         }
     }
 
-    fluid Bubbly_Surprise
+    fluid BubblySurprise
     {
         Color  = 0.847 : 0.749 : 0.847,
         DisplayName = Fluid_Name_Bubbly_Surprise,
@@ -132,7 +132,7 @@ module MixologyMod
         }
     }
 
-    fluid Mocha_Fusion
+    fluid MochaFusion
     {
         Color = 0.231 : 0.161 : 0.02,
         DisplayName = Fluid_Name_Mocha_Fusion,
@@ -174,7 +174,7 @@ module MixologyMod
         }
     }
 
-    fluid Apple_Mead
+    fluid AppleMead
     {
         Color  = 0.859 : 0.584 : 0.008,
         DisplayName = Fluid_Name_Apple_Mead,
@@ -217,7 +217,7 @@ module MixologyMod
         }
     }
 
-    fluid French_75
+    fluid French75
     {
         Color  = 0.922 : 0.78 : 0.486,
         DisplayName = Fluid_Name_French_75,
@@ -260,7 +260,7 @@ module MixologyMod
         }
     }
 
-    fluid Black_Russian
+    fluid BlackRussian
     {
         Color  = 0.122 : 0.11 : 0.086,
         DisplayName = Fluid_Name_Black_Russian,
@@ -290,7 +290,7 @@ module MixologyMod
         }
     }
 
-    fluid White_Russian
+    fluid WhiteRussian
     {
         Color = 0.451 : 0.384 : 0.243,
         DisplayName = Fluid_Name_White_Russian,
@@ -320,7 +320,7 @@ module MixologyMod
         }
     }
 
-    fluid Port_Sangria
+    fluid PortSangria
     {
         Color  = 0.69 : 0.227 : 0.043,
         DisplayName = Fluid_Name_Port_Sangria,
@@ -350,7 +350,7 @@ module MixologyMod
         }
     }
 
-    fluid Old_Fashioned
+    fluid OldFashioned
     {
         Color  = 0.89 : 0.604 : 0.082,
         DisplayName = Fluid_Name_Old_Fashioned,
@@ -380,7 +380,7 @@ module MixologyMod
         }
     }
 
-    fluid Espresso_Martini
+    fluid EspressoMartini
     {
         Color  = 0.62 : 0.439 : 0.133,
         DisplayName = Fluid_Name_Espresso_Martini,
@@ -470,7 +470,7 @@ module MixologyMod
         }
     }
 
-    fluid Rum_Runner
+    fluid RumRunner
     {
         Color  = 0.929 : 0.459 : 0.227,
         DisplayName = Fluid_Name_Rum_Runner,
@@ -500,7 +500,7 @@ module MixologyMod
         }
     }
 
-    fluid Mai_Tai
+    fluid MaiTai
     {
         Color  = 0.949 : 0.62 : 0.314,
         DisplayName = Fluid_Name_Mai_Tai,
@@ -530,7 +530,7 @@ module MixologyMod
         }
     }
 
-    fluid Jungle Juice
+    fluid JungleJuice
     {
         Color  = 1 : 0.659 : 0,
         DisplayName = Fluid_Name_Jungle_Juice,
@@ -560,7 +560,7 @@ module MixologyMod
         }
     }
 
-    fluid Ginger_Punch
+    fluid GingerPunch
     {
         Color  = 0.941 : 0.902 : 0.549,
         DisplayName = Fluid_Name_Ginger_Punch,
@@ -589,7 +589,7 @@ module MixologyMod
         }
     }
 
-    fluid Tropical Bliss
+    fluid TropicalBliss
     {
         Color  = 0.969 : 0.906 : 0.776,
         DisplayName = Fluid_Name_Tropical_Bliss,
@@ -618,7 +618,7 @@ module MixologyMod
         }
     }
 
-    fluid Cranberry Spark
+    fluid CranberrySpark
     {
         Color  = 0.741 : 0.098 : 0.482,
         DisplayName = Fluid_Name_Cranberry_Spark,
@@ -647,7 +647,7 @@ module MixologyMod
         }
     }
 
-    fluid Strawberry Daiquiri
+    fluid StrawberryDaiquiri
     {
         Color  = 0.922 : 0.039 : 0.184,
         DisplayName = Fluid_Name_Strawberry_Daiquiri,
@@ -707,7 +707,7 @@ module MixologyMod
         }
     }
 
-    fluid Blue_Lagoon
+    fluid BlueLagoon
     {
         Color  = 0.31 : 0.663 : 0.859,
         DisplayName = Fluid_Name_Blue_Lagoon,
@@ -737,7 +737,7 @@ module MixologyMod
         }
     }
 
-    fluid Tequila_Sunrise
+    fluid TequilaSunrise
     {
         Color  = 0.961 : 0.776 : 0.067,
         DisplayName = Fluid_Name_Tequila_Sunrise,
@@ -797,7 +797,7 @@ module MixologyMod
         }
     }
 
-    fluid Pina_Colada
+    fluid PinaColada
     {
         Color  = 0.961 : 0.898 : 0.49,
         DisplayName = Fluid_Name_Pina_Colada,
@@ -827,7 +827,7 @@ module MixologyMod
         }
     }
 
-    fluid Gin_Fizz
+    fluid GinFizz
     {
         Color  = 0.961 : 0.929 : 0.714,
         DisplayName = Fluid_Name_Gin_Fizz,
@@ -857,7 +857,7 @@ module MixologyMod
         }
     }
 
-    fluid Golden_Ale
+    fluid GoldenAle
     {
         Color  = 0.91 : 0.686 : 0.071,
         DisplayName = Fluid_Name_Golden_Ale,
@@ -887,7 +887,7 @@ module MixologyMod
         }
     }
 
-    fluid Whiskey_Sour
+    fluid WhiskeySour
     {
         Color  = 0.902 : 0.804 : 0.384,
         DisplayName = Fluid_Name_Whiskey_Sour,
@@ -917,7 +917,7 @@ module MixologyMod
         }
     }
 
-    fluid Ginger_Smash
+    fluid GingerSmash
     {
         Color  = 0.961 : 0.792 : 0.082,
         DisplayName = Fluid_Name_Ginger_Smash,
@@ -946,7 +946,7 @@ module MixologyMod
         }
     }
 
-    fluid Tropical Cooler
+    fluid TropicalCooler
     {
         Color  = 0.871 : 0.608 : 0.129,
         DisplayName = Fluid_Name_Tropical_Cooler,
@@ -975,7 +975,7 @@ module MixologyMod
         }
     }
 
-    fluid Virgin_Cosmo
+    fluid VirginCosmo
     {
         Color  = 1 : 0.322 : 0.2,
         DisplayName = Fluid_Name_Virgin_Cosmo,
@@ -1004,7 +1004,7 @@ module MixologyMod
         }
     }
 
-    fluid Sunrise_Spritz
+    fluid SunriseSpritz
     {
         Color  = 1 : 0.439 : 0.2,
         DisplayName = Fluid_Name_Sunrise_Spritz,
@@ -1033,7 +1033,7 @@ module MixologyMod
         }
     }
 
-    fluid Apple_Fizz
+    fluid AppleFizz
     {
         Color  = 0.922 : 0.886 : 0.102,
         DisplayName = Fluid_Name_Apple_Fizz,
@@ -1062,7 +1062,7 @@ module MixologyMod
         }
     }
 
-    fluid Strawberry_Lemonade_Sparkler
+    fluid StrawberryLemonadeSparkler
     {
         Color  = 0.949 : 0.478 : 0.275,
         DisplayName = Fluid_Name_Strawberry_Lemonade_Sparkler,
@@ -1091,7 +1091,7 @@ module MixologyMod
         }
     }
 
-    fluid Berry_Chocolate_Shake
+    fluid BerryChocolateShake
     {
         Color  = 0.435 : 0.22 : 0.549,
         DisplayName = Fluid_Name_Berry_Chocolate_Shake,
@@ -1120,7 +1120,7 @@ module MixologyMod
         }
     }
 
-    fluid Chocolate_Sweetheart
+    fluid ChocolateSweetheart
     {
         Color  = 0.349 : 0.251 : 0.031,
         DisplayName = Fluid_Name_Chocolate_Sweetheart,
@@ -1149,7 +1149,7 @@ module MixologyMod
         }
     }
 
-    fluid Chocolate_Orange_Bliss
+    fluid ChocolateOrangeBliss
     {
         Color  = 0.8 : 0.62 : 0.224,
         DisplayName = Fluid_Name_Chocolate_Orange_Bliss,
@@ -1178,7 +1178,7 @@ module MixologyMod
         }
     }
 
-    fluid Blueberry_Lime_Fizz
+    fluid BlueberryLimeFizz
     {
         Color  = 0.212 : 0.514 : 0.549,
         DisplayName = Fluid_Name_Blueberry_Lime_Fizz,
@@ -1207,7 +1207,7 @@ module MixologyMod
         }
     }
 
-    fluid Bubblegum_Bliss
+    fluid BubblegumBliss
     {
         Color  = 0.612 : 0.357 : 0.459,
         DisplayName = Fluid_Name_Bubblegum_Bliss,
@@ -1236,7 +1236,7 @@ module MixologyMod
         }
     }
 
-    fluid Purple_Citrus_Pop
+    fluid PurpleCitrusPop
     {
         Color  = 0.733 : 0.557 : 0.839,
         DisplayName = Fluid_Name_Purple_Citrus_Pop,
@@ -1265,7 +1265,7 @@ module MixologyMod
         }
     }
 
-    fluid Iced_Mocha_Mocktail
+    fluid IcedMochaMocktail
     {
         Color  = 0.369 : 0.31 : 0.114,
         DisplayName = Fluid_Name_Iced_Mocha_Mocktail,
@@ -1294,7 +1294,7 @@ module MixologyMod
         }
     }
 
-    fluid Spiced_Tea_Spritzer
+    fluid SpicedTeaSpritzer
     {
         Color  = 0.871 : 0.851 : 0.416,
         DisplayName = Fluid_Name_Spiced_Tea_Spritzer,
@@ -1323,7 +1323,7 @@ module MixologyMod
         }
     }
 
-    fluid Lemon_Tea_Cooler
+    fluid LemonTeaCooler
     {
         Color  = 0.871 : 0.851 : 0.416,
         DisplayName = Fluid_Name_Lemon_Tea_Cooler,
@@ -1352,7 +1352,7 @@ module MixologyMod
         }
     }
 
-    fluid Virgin_Bloody_Mary
+    fluid VirginBloodyMary
     {
         Color  = 0.647 : 0.165 : 0.165 ,
         DisplayName = Fluid_Name_Virgin_Bloody_Mary,
@@ -1381,7 +1381,7 @@ module MixologyMod
         }
     }
 
-    fluid Citrus_Berry_Mix
+    fluid CitrusBerryMix
     {
         Color  = 0.788 : 0.384 : 0.141,
         DisplayName = Fluid_Name_Citrus_Berry_Mix,
@@ -1410,7 +1410,7 @@ module MixologyMod
         }
     }
 
-    fluid Orchard_Delight
+    fluid OrchardDelight
     {
         Color  = 0.267 : 0.118 : 0.412,
         DisplayName = Fluid_Name_Orchard_Delight,
@@ -1439,7 +1439,7 @@ module MixologyMod
         }
     }
 
-    fluid Honey_Citrus_Spritz
+    fluid HoneyCitrusSpritz
     {
         Color  = 0.831 : 0.753 : 0.384,
         DisplayName = Fluid_Name_Honey_Citrus_Spritz,
@@ -1497,7 +1497,7 @@ module MixologyMod
         }
     }
 
-    fluid Root Beer
+    fluid RootBeer
     {
         Color  = 0.62 : 0.4 : 0.027,
         DisplayName = Fluid_Name_Root_Beer,
@@ -1526,7 +1526,7 @@ module MixologyMod
         }
     }
 
-    fluid Gatorade Cool Blue
+    fluid GatoradeCoolBlue
     {
         Color  = 0.09 : 0.745 : 0.89,
         DisplayName = Fluid_Name_Gatorade_Cool_Blue,
@@ -1555,7 +1555,7 @@ module MixologyMod
         }
     }
 
-    fluid Gatorade Lemon-Lime
+    fluid GatoradeLemon-Lime
     {
         Color  = 0.722 : 0.929 : 0.133,
         DisplayName = Fluid_Name_Gatorade_Lemon-Lime,
@@ -1584,7 +1584,7 @@ module MixologyMod
         }
     }
 
-    fluid Gatorade Fruit Punch
+    fluid GatoradeFruit Punch
     {
         Color  = 1 : 0 : 0,
         DisplayName = Fluid_Name_Gatorade_Fruit_Punch,
@@ -1613,7 +1613,7 @@ module MixologyMod
         }
     }
 
-    fluid Gatorade Orange
+    fluid GatoradeOrange
     {
         Color  = 1 : 0.631 : 0,
         DisplayName = Fluid_Name_Gatorade_Orange,
@@ -1659,7 +1659,7 @@ module MixologyMod
                 hungerChange = -5,
                 stressChange = 5,
                 thirstChange = -40,
-                unhappyChange = +5,
+                unhappyChange = 5,
                 calories = 100,
                 carbohydrates = 0,
                 lipids = 0,
@@ -2060,7 +2060,7 @@ module MixologyMod
                 alcohol = 0.14,
                 fluReduction = 0,
                 painReduction = 0,
-                enduranceChange = +10,
+                enduranceChange = 10,
                 foodSicknessReduction = 0,
             }
         }
@@ -2584,7 +2584,7 @@ module MixologyMod
         {
             thirstChange = 0,
             fatigueChange = 0,
-            hungerChange = 0,
+            hungerChange = -5,
             stressChange = 0,
             unhappyChange = -5,
             calories = 400,
@@ -2598,6 +2598,36 @@ module MixologyMod
             foodSicknessReduction = 0,
         }
     }
+
+    fluid ChocolateSyrup
+    {
+        Color = 0.4 : 0.2 : 0.1,
+        DisplayName = Fluid_Name_ChocolateSyrup,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            thirstChange = 0,
+            fatigueChange = 0,
+            hungerChange = -5,
+            stressChange = 0,
+            unhappyChange = -5,
+            calories = 400,
+            carbohydrates = 100,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+
 
     fluid PumpkinSpiceLatte
     {
@@ -2685,4 +2715,725 @@ module MixologyMod
             foodSicknessReduction = 0,
         }
     }
+
+fluid Cachaca
+{
+    Color = 0.9 : 0.9 : 0.8,
+    DisplayName = Fluid_Name_Cachaca,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -20,
+        fatigueChange = 0,
+        hungerChange = -15,
+        stressChange = -5,
+        unhappyChange = -10,
+        calories = 1100,
+        carbohydrates = 0,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.38,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Tonic
+{
+    Color = 0.9 : 1 : 1,
+    DisplayName = Fluid_Name_Tonic,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid WhiskeyHighball
+{
+    Color = 0.8 : 0.6 : 0.4,
+    DisplayName = Fluid_Name_WhiskeyHighball,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -30,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -10,
+        calories = 900,
+        carbohydrates = 2,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.32,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid SeaBreeze
+{
+    Color = 0.8 : 0.4 : 0.6,
+    DisplayName = Fluid_Name_SeaBreeze,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -40,
+        fatigueChange = -5,
+        hungerChange = -10,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 900,
+        carbohydrates = 4,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.16,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid BayBreeze
+{
+    Color = 0.9 : 0.5 : 0.6,
+    DisplayName = Fluid_Name_BayBreeze,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -40,
+        fatigueChange = -5,
+        hungerChange = -10,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 950,
+        carbohydrates = 4,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.16,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid CapeCodder
+{
+    Color = 0.8 : 0.2 : 0.4,
+    DisplayName = Fluid_Name_CapeCodder,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -30,
+        fatigueChange = -5,
+        hungerChange = -10,
+        stressChange = -8,
+        unhappyChange = -8,
+        calories = 800,
+        carbohydrates = 2,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.16,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid GinAndTonic
+{
+    Color = 0.9 : 0.9 : 0.7,
+    DisplayName = Fluid_Name_GinAndTonic,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -50,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -10,
+        calories = 800,
+        carbohydrates = 2,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.24,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Zombie
+{
+    Color = 0.9 : 0.4 : 0.2,
+    DisplayName = Fluid_Name_Zombie,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -60,
+        fatigueChange = -10,
+        hungerChange = -15,
+        stressChange = -15,
+        unhappyChange = -10,
+        calories = 900,
+        carbohydrates = 3,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.3,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+
+fluid Painkiller
+{
+    Color = 0.8 : 0.7 : 0.3,
+    DisplayName = Fluid_Name_Painkiller,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -55,
+        fatigueChange = -10,
+        hungerChange = -10,
+        stressChange = -10,
+        unhappyChange = -10,
+        calories = 800,
+        carbohydrates = 5,
+        lipids = 3,
+        proteins = 1,
+        alcohol = 0.24,
+        fluReduction = 0,
+        painReduction = 20,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid TequilaShot
+{
+    Color = 0.9 : 0.8 : 0.4,
+    DisplayName = Fluid_Name_TequilaShot,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -15,
+        fatigueChange = 0,
+        hungerChange = 0,
+        stressChange = -5,
+        unhappyChange = -8,
+        calories = 500,
+        carbohydrates = 0,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.4,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid SexOnTheBeach
+{
+    Color = 0.9 : 0.5 : 0.3,
+    DisplayName = Fluid_Name_SexOnTheBeach,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -45,
+        fatigueChange = -5,
+        hungerChange = -10,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 850,
+        carbohydrates = 5,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.24,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Appletini
+{
+    Color = 0.7 : 1.0 : 0.3,
+    DisplayName = Fluid_Name_Appletini,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -30,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -10,
+        calories = 700,
+        carbohydrates = 6,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.16,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid LongIslandIcedTea
+{
+    Color = 0.6 : 0.4 : 0.2,
+    DisplayName = Fluid_Name_LongIslandIcedTea,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -60,
+        fatigueChange = -10,
+        hungerChange = -10,
+        stressChange = -35,
+        unhappyChange = -35,
+        calories = 1100,
+        carbohydrates = 5,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.36,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid VodkaRedBull
+{
+    Color = 0.5 : 0.7 : 0.3,
+    DisplayName = Fluid_Name_VodkaRedBull,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -75,
+        fatigueChange = -30,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 700,
+        carbohydrates = 38,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 10,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Screwdriver
+{
+    Color = 0.9 : 0.7 : 0.2,
+    DisplayName = Fluid_Name_Screwdriver,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -40,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -8,
+        unhappyChange = -10,
+        calories = 750,
+        carbohydrates = 2,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.16,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid IrishCoffee
+{
+    Color = 0.4 : 0.2 : 0.1,
+    DisplayName = Fluid_Name_IrishCoffee,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -30,
+        fatigueChange = -10,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 850,
+        carbohydrates = 4,
+        lipids = 2,
+        proteins = 1,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Caipirinha
+{
+    Color = 0.9 : 0.8 : 0.3,
+    DisplayName = Fluid_Name_Caipirinha,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -35,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 700,
+        carbohydrates = 3,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid BeesKnees
+{
+    Color = 0.9 : 0.9 : 0.5,
+    DisplayName = Fluid_Name_BeesKnees,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -40,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -10,
+        calories = 750,
+        carbohydrates = 4,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Radler
+{
+    Color = 0.9 : 0.8 : 0.3,
+    DisplayName = Fluid_Name_Radler,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -50,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -8,
+        unhappyChange = -10,
+        calories = 500,
+        carbohydrates = 10,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.04,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid RanchWater
+{
+    Color = 0.9 : 0.9 : 0.8,
+    DisplayName = Fluid_Name_RanchWater,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -60,
+        fatigueChange = -5,
+        hungerChange = -5,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 200,
+        carbohydrates = 1,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid WhiteOut
+{
+    Color = 0.9 : 0.9 : 0.9,
+    DisplayName = Fluid_Name_WhiteOut,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -30,
+        fatigueChange = -5,
+        hungerChange = -15,
+        stressChange = -10,
+        unhappyChange = -8,
+        calories = 600,
+        carbohydrates = 10,
+        lipids = 5,
+        proteins = 3,
+        alcohol = 0.2,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid BlackOut
+{
+    Color = 0.2 : 0.1 : 0.1,
+    DisplayName = Fluid_Name_BlackOut,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -40,
+        fatigueChange = -10,
+        hungerChange = -10,
+        stressChange = -15,
+        unhappyChange = -10,
+        calories = 500,
+        carbohydrates = 5,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.3,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid SlipperyNipple
+{
+    Color = 0.9 : 0.7 : 0.4,
+    DisplayName = Fluid_Name_SlipperyNipple,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -25,
+        fatigueChange = -5,
+        hungerChange = -10,
+        stressChange = -8,
+        unhappyChange = -8,
+        calories = 450,
+        carbohydrates = 8,
+        lipids = 3,
+        proteins = 1,
+        alcohol = 0.18,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid IrishTrashCan
+{
+    Color = 0.5 : 0.8 : 0.3,
+    DisplayName = Fluid_Name_IrishTrashCan,
+
+    Categories
+    {
+        Beverage,
+        Alcoholic,
+    }
+
+    Properties
+    {
+        thirstChange = -70,
+        fatigueChange = -25,
+        hungerChange = -10,
+        stressChange = -15,
+        unhappyChange = -10,
+        calories = 800,
+        carbohydrates = 15,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0.32,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 10,
+        foodSicknessReduction = 0,
+    }
+}
+
 }

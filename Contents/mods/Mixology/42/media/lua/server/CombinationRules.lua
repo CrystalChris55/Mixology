@@ -403,7 +403,7 @@ KnownMixtures = {
     {
         name = "Gatorwine",
         inputs = {
-            { fluid = "Gatorade Lemon-Lime", minAmount = 0.02 },
+            { fluid = "GatoradeLemon-Lime", minAmount = 0.02 },
             { fluid = "Wine", minAmount = 0.02 },
         },
         output = { fluid = "Gatorwine", amount = 0.04 }
@@ -411,7 +411,7 @@ KnownMixtures = {
     {
         name = "Gatorwine",
         inputs = {
-            { fluid = "Gatorade Cool Blue", minAmount = 0.02 },
+            { fluid = "GatoradeCoolBlue", minAmount = 0.02 },
             { fluid = "Wine", minAmount = 0.02 },
         },
         output = { fluid = "Gatorwine", amount = 0.04 }
@@ -419,7 +419,7 @@ KnownMixtures = {
     {
         name = "Gatorwine",
         inputs = {
-            { fluid = "Gatorade Fruit Punch", minAmount = 0.02 },
+            { fluid = "GatoradeFruitPunch", minAmount = 0.02 },
             { fluid = "Wine", minAmount = 0.02 },
         },
         output = { fluid = "Gatorwine", amount = 0.04 }
@@ -519,6 +519,14 @@ KnownMixtures = {
         output = { fluid = "ChocolateMilkshake", amount = 0.05 }
     },
     {
+        name = "MilkChocolate",
+        inputs = {
+        { fluid = "ChocolateSyrup", minAmount = 0.03 },
+        { fluid = "CowMilk",       minAmount = 0.02 },
+        },
+        output = { fluid = "MilkChocolate", amount = 0.05 }
+    },
+    {
         name = "StrawberryMilkshake",
         inputs = {
             { fluid = "StrawberrySyrup", minAmount = 0.03 },
@@ -550,5 +558,211 @@ KnownMixtures = {
             { fluid = "SodaBlueberry", minAmount = 0.03 },
         },
         output = { fluid = "Dragonbreath", amount = 0.05 }
+    },
+    {
+        name = "Screwdriver",
+        inputs = {
+            { fluid = "Vodka",       minAmount = 0.02 },
+            { fluid = "JuiceOrange", minAmount = 0.03 },
+        },
+        output = { fluid = "Screwdriver", amount = 0.05 }
+    },
+    {
+        name = "IrishCoffee",
+        inputs = {
+            { fluid = "Coffee",  minAmount = 0.02 },
+            { fluid = "Whiskey", minAmount = 0.02 },
+            { fluid = "Baileys", minAmount = 0.01 },
+        },
+        output = { fluid = "IrishCoffee", amount = 0.05 }
+    },
+    {
+        name = "Caipirinha",
+        inputs = {
+            { fluid = "Cachaca",     minAmount = 0.03 },
+            { fluid = "JuiceLime",   minAmount = 0.02 },
+            { fluid = "SimpleSyrup", minAmount = 0.01 },
+        },
+        output = { fluid = "Caipirinha", amount = 0.06 }
+    },
+    {
+        name = "BeesKnees",
+        inputs = {
+            { fluid = "Gin",         minAmount = 0.03 },
+            { fluid = "SimpleSyrup", minAmount = 0.02 },
+            { fluid = "JuiceLemon",  minAmount = 0.01 },
+        },
+        output = { fluid = "BeesKnees", amount = 0.06 }
+    },
+    {
+        name = "Radler",
+        inputs = {
+            { fluid = "Beer",      minAmount = 0.03 },
+            { fluid = "SodaLemon", minAmount = 0.02 },
+        },
+        output = { fluid = "Radler", amount = 0.05 }
+    },
+    {
+        name = "RanchWater",
+        inputs = {
+            { fluid = "Tequila", minAmount = 0.03 },
+            { fluid = "Tonic",   minAmount = 0.02 },
+        },
+        output = { fluid = "RanchWater", amount = 0.05 }
+    },
+    {
+        name = "WhiskeyHighball",
+        inputs = {
+            { fluid = "Whiskey", minAmount = 0.03 },
+            { fluid = "Tonic",   minAmount = 0.02 },
+        },
+        output = { fluid = "WhiskeyHighball", amount = 0.05 }
+    },
+    {
+        name = "SeaBreeze",
+        inputs = {
+            { fluid = "Vodka",           minAmount = 0.02 },
+            { fluid = "JuiceCranberry",  minAmount = 0.02 },
+            { fluid = "JuiceGrapefruit", minAmount = 0.01 },
+        },
+        output = { fluid = "SeaBreeze", amount = 0.05 }
+    },
+    {
+        name = "BayBreeze",
+        inputs = {
+            { fluid = "Vodka",          minAmount = 0.02 },
+            { fluid = "JuiceCranberry", minAmount = 0.02 },
+            { fluid = "JuicePineapple", minAmount = 0.01 },
+        },
+        output = { fluid = "BayBreeze", amount = 0.05 }
+    },
+    {
+        name = "CapeCodder",
+        inputs = {
+            { fluid = "Vodka",          minAmount = 0.03 },
+            { fluid = "JuiceCranberry", minAmount = 0.02 },
+        },
+        output = { fluid = "CapeCodder", amount = 0.05 }
+    },
+    {
+        name = "GinAndTonic",
+        inputs = {
+            { fluid = "Gin",   minAmount = 0.03 },
+            { fluid = "Tonic", minAmount = 0.02 },
+        },
+        output = { fluid = "GinAndTonic", amount = 0.05 }
+    },
+    {
+        name = "CubaLibre",
+        inputs = {
+            { fluid = "Rum",       minAmount = 0.03 },
+            { fluid = "SodaCola",  minAmount = 0.02 },
+            { fluid = "JuiceLime", minAmount = 0.01 },
+        },
+        output = { fluid = "CubaLibre", amount = 0.06 }
+    },
+    {
+        name = "Zombie",
+        inputs = {
+            { fluid = "Rum",            minAmount = 0.02 },
+            { fluid = "Grenadine",      minAmount = 0.02 },
+            { fluid = "JuicePineapple", minAmount = 0.01 },
+            { fluid = "JuiceOrange",    minAmount = 0.01 },
+        },
+        output = { fluid = "Zombie", amount = 0.06 }
+    },
+    {
+        name = "Painkiller",
+        inputs = {
+            { fluid = "Rum",            minAmount = 0.02 },
+            { fluid = "JuicePineapple", minAmount = 0.02 },
+            { fluid = "JuiceOrange",    minAmount = 0.01 },
+            { fluid = "CowMilk",        minAmount = 0.01 },
+        },
+        output = { fluid = "Painkiller", amount = 0.06 }
+    },
+    {
+        name = "TequilaShot",
+        inputs = {
+            { fluid = "Tequila", minAmount = 0.05 },
+            { fluid = "SodaLime", minAmount = 0.01 },
+        },
+        output = { fluid = "TequilaShot", amount = 0.05 }
+    },
+    {
+        name = "SexOnTheBeach",
+        inputs = {
+            { fluid = "Vodka",          minAmount = 0.02 },
+            { fluid = "JuiceOrange",    minAmount = 0.02 },
+            { fluid = "JuiceCranberry", minAmount = 0.01 },
+            { fluid = "Bols",           minAmount = 0.01 },
+        },
+        output = { fluid = "SexOnTheBeach", amount = 0.06 }
+    },
+    {
+        name = "Appletini",
+        inputs = {
+            { fluid = "Vodka",      minAmount = 0.02 },
+            { fluid = "JuiceApple", minAmount = 0.02 },
+            { fluid = "Bols",       minAmount = 0.01 },
+        },
+        output = { fluid = "Appletini", amount = 0.05 }
+    },
+    {
+        name = "LongIslandIcedTea",
+        inputs = {
+            { fluid = "Vodka",    minAmount = 0.01 },
+            { fluid = "Rum",      minAmount = 0.01 },
+            { fluid = "Tequila",  minAmount = 0.01 },
+            { fluid = "Gin",      minAmount = 0.01 },
+            { fluid = "SodaCola", minAmount = 0.01 },
+            { fluid = "Bols",     minAmount = 0.01 },
+        },
+        output = { fluid = "LongIslandIcedTea", amount = 0.06 }
+    },
+    {
+        name = "VodkaRedBull",
+        inputs = {
+            { fluid = "Vodka",       minAmount = 0.03 },
+            { fluid = "EnergyDrink", minAmount = 0.02 },
+        },
+        output = { fluid = "VodkaRedBull", amount = 0.05 }
+    },
+    {
+        name = "WhiteOut",
+        inputs = {
+            { fluid = "Vodka",   minAmount = 0.02 },
+            { fluid = "Baileys", minAmount = 0.02 },
+            { fluid = "CowMilk", minAmount = 0.01 },
+        },
+        output = { fluid = "WhiteOut", amount = 0.05 }
+    },
+    {
+        name = "BlackOut",
+        inputs = {
+            { fluid = "CoffeeLiqueur", minAmount = 0.02 },
+            { fluid = "Rum",           minAmount = 0.02 },
+            { fluid = "SodaCola",      minAmount = 0.01 },
+        },
+        output = { fluid = "BlackOut", amount = 0.05 }
+    },
+    {
+        name = "SlipperyNipple",
+        inputs = {
+            { fluid = "Baileys",   minAmount = 0.02 },
+            { fluid = "Bols",      minAmount = 0.02 },
+            { fluid = "Grenadine", minAmount = 0.01 },
+        },
+        output = { fluid = "SlipperyNipple", amount = 0.05 }
+    },
+    {
+        name = "IrishTrashCan",
+        inputs = {
+            { fluid = "Vodka",       minAmount = 0.01 },
+            { fluid = "Rum",         minAmount = 0.01 },
+            { fluid = "Gin",         minAmount = 0.01 },
+            { fluid = "EnergyDrink", minAmount = 0.02 },
+        },
+        output = { fluid = "IrishTrashCan", amount = 0.05 }
     },
 }

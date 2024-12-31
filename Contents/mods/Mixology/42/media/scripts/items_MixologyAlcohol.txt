@@ -16,7 +16,7 @@ item Mouthwash
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -48,7 +48,7 @@ item Bailey
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -80,7 +80,7 @@ item Aperol
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -112,7 +112,7 @@ item Bols
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -144,7 +144,7 @@ item Fireball
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -176,7 +176,7 @@ item IceWine
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -203,11 +203,12 @@ item Kvass
     Tooltip = Tooltip_item_RainFromGround,
     StaticModel = Kvass_Ground,
     WorldStaticModel = Kvass_Ground,
+    Packaged = TRUE,
     FillFromDispenserSound = GetWaterFromDispenserGlass,
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;CookableMicrowave,
 
 
     component FluidContainer
@@ -215,7 +216,7 @@ item Kvass
         ContainerName   = Kvass,
         RainFactor      = 0.5,
         capacity        = 1.0,
-        CustomDrinkSound = DrinkingFromMug,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
              	Fluids
             		{
                 	fluid           = Kvass:1.0,
@@ -238,7 +239,7 @@ item Moonshine
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -270,7 +271,7 @@ item SchnappsSigma
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -302,7 +303,7 @@ item SchnappsMint
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -334,7 +335,7 @@ item Soju
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -366,7 +367,7 @@ item MulledWine
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -399,7 +400,7 @@ item Sambuca
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -431,7 +432,7 @@ item Sake
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -463,7 +464,7 @@ item Jeagermeister
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -495,7 +496,7 @@ item Ouzo
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -527,7 +528,7 @@ item Hennessy
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -539,6 +540,38 @@ item Hennessy
              	Fluids
             		{
                 	fluid           = Cognac:1.0,
+            		}
+    }
+}
+
+item Cachaca
+{
+    DisplayName = Cachaca,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/Cachaca,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/CacachaMask,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Cachaca_Ground,
+    WorldStaticModel = Cachaca_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;Glass;GlassBottle,
+
+
+    component FluidContainer
+    {
+        ContainerName   = Cachaca,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+             	Fluids
+            		{
+                	fluid           = Cachaca:1.0,
             		}
     }
 }
