@@ -16,7 +16,7 @@ item GatoradeCool-Blue
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;CookableMicrowave,
 
 
     component FluidContainer
@@ -28,14 +28,14 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = Gatorade Cool Blue:1.0,
+           fluid           = GatoradeCoolBlue:1.0,
           }
     }
 }
 
     item GatoradeLemon-Lime
 {
-    DisplayName = Gatorade Lemon-Lime,
+    DisplayName = GatoradeLemon-Lime,
     DisplayCategory = Food,
     Type = Normal,
     Weight = 0.2,
@@ -49,7 +49,7 @@ item GatoradeCool-Blue
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;CookableMicrowave,
 
 
     component FluidContainer
@@ -61,7 +61,7 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = Gatorade Lemon-Lime:1.0,
+           fluid           = GatoradeLemon-Lime:1.0,
           }
     }
 }
@@ -82,7 +82,7 @@ item GatoradeCool-Blue
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;CookableMicrowave,
 
 
     component FluidContainer
@@ -94,7 +94,7 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = Gatorade Orange:1.0,
+           fluid           = GatoradeOrange:1.0,
           }
     }
 }
@@ -115,7 +115,7 @@ item GatoradeCool-Blue
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;CookableMicrowave,
 
 
     component FluidContainer
@@ -127,7 +127,7 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = Gatorade Fruit Punch:1.0,
+           fluid           = GatoradeFruitPunch:1.0,
           }
     }
 }
@@ -147,7 +147,7 @@ item ColaBottle
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;Glass;GlassBottle,
 
 
     component FluidContainer
@@ -176,6 +176,7 @@ item ColaBottle
         EatType = Bourbon,
         StaticModel = StrawberrySyrup_Ground,
         WorldStaticModel = StrawberrySyrup_Ground,
+        Tags = Glass;GlassBottle,
 
         component FluidContainer
         {
@@ -203,6 +204,7 @@ item ColaBottle
         EatType = Bourbon,
         StaticModel = PumpkinSyrup_Ground,
         WorldStaticModel = PumpkinSyrup_Ground,
+        Tags = Glass;GlassBottle,
 
         component FluidContainer
         {
@@ -216,6 +218,34 @@ item ColaBottle
             }
         }
 	}
+
+  	item ChocolateSyrup
+	{
+        DisplayName = Chocolate Syrup,
+        DisplayCategory = Food,
+        Type = Normal,
+        secondaryAnimMask = drinkIdle,
+        Weight = 0.1,
+        Icon     = Icons/ChocolateSyrup,
+        IconFluidMask       = Icons/ChocolateSyrupMask,
+        CustomContextMenu = Drink,
+        EatType = Bourbon,
+        StaticModel = ChocolateSyrup_Ground,
+        WorldStaticModel = ChocolateSyrup_Ground,
+        Tags = Glass;GlassBottle,
+
+        component FluidContainer
+        {
+            ContainerName   = SyrupBottle,
+            capacity        = 1.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+
+            Fluids
+            {
+                fluid           = ChocolateSyrup:1.0,
+            }
+        }
+	}  
 
 	item RedbullCan
 	{
@@ -351,4 +381,37 @@ item ColaBottle
             	}
         	}
 	}
+
+item Tonic
+{
+    DisplayName = Tonic Water,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/Tonic,
+    IconFluidMask = Icons/TonicMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Tonic_Ground,
+    WorldStaticModel = Tonic_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;CookableMicrowave,
+
+
+    component FluidContainer
+    {
+        ContainerName   = Tonic,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = Tonic:1.0,
+            		}
+    }
+}
 }
