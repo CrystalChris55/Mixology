@@ -1584,7 +1584,7 @@ module MixologyMod
         }
     }
 
-    fluid GatoradeFruit Punch
+    fluid GatoradeFruit-Punch
     {
         Color  = 1 : 0 : 0,
         DisplayName = Fluid_Name_Gatorade_Fruit_Punch,
@@ -3435,5 +3435,354 @@ fluid IrishTrashCan
         foodSicknessReduction = 0,
     }
 }
+
+fluid SunnyD
+{
+    Color = 1.0 : 0.8 : 0.2,
+    DisplayName = Fluid_Name_SunnyD,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -75,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 320,
+        carbohydrates = 30,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidStrawberry
+{
+    Color = 1.0 : 0.3 : 0.5,
+    DisplayName = Fluid_Name_KoolAid_Strawberry,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidCherry
+{
+    Color = 1.0 : 0.1 : 0.1,
+    DisplayName = Fluid_Name_KoolAid_Cherry,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidTropicalPunch
+{
+    Color = 0.9 : 0.3 : 0.6,
+    DisplayName = Fluid_Name_KoolAid_TropicalPunch,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid CapriSunFruitPunch
+{
+    Color = 1.0 : 0.9 : 0.4,
+    DisplayName = Fluid_Name_CapriSun_FruitPunch,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -75,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 110,
+        carbohydrates = 28,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidOrange
+{
+    Color = 1.0 : 0.6 : 0.2,
+    DisplayName = Fluid_Name_KoolAid_Orange,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidOrange
+{
+    Color = 1.0 : 0.6 : 0.2,
+    DisplayName = Fluid_Name_KoolAid_Orange,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidPurplesaurusRex
+{
+    Color = 0.7 : 0.4 : 1.0,
+    DisplayName = Fluid_Name_KoolAid_PurplesaurusRex,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid KoolAidGrape
+{
+    Color = 0.6 : 0.3 : 0.8,
+    DisplayName = Fluid_Name_KoolAid_Grape,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -85,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 100,
+        carbohydrates = 25,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid CapriSunOrange
+{
+    Color = 1.0 : 0.9 : 0.4,
+    DisplayName = Fluid_Name_CapriSun_Orange,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -75,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 110,
+        carbohydrates = 28,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid CapriSunPacificCooler
+{
+    Color = 1.0 : 0.9 : 0.4,
+    DisplayName = Fluid_Name_CapriSun_PacificCooler,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -75,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -10,
+        unhappyChange = -5,
+        calories = 110,
+        carbohydrates = 28,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 0,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
+fluid Sarsaparilla
+{
+    Color = 0.5 : 0.3 : 0.1,
+    DisplayName = Fluid_Name_Sarsaparilla,
+
+    Categories
+    {
+        Beverage,
+    }
+
+    Properties
+    {
+        thirstChange = -60,
+        fatigueChange = -5,
+        hungerChange = 0,
+        stressChange = -8,
+        unhappyChange = -5,
+        calories = 120,
+        carbohydrates = 30,
+        lipids = 0,
+        proteins = 0,
+        alcohol = 0,
+        fluReduction = 5,
+        painReduction = 0,
+        enduranceChange = 0,
+        foodSicknessReduction = 0,
+    }
+}
+
 
 }

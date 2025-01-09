@@ -226,31 +226,6 @@ table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items,  ItemSpa
 table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items,  ItemSpawnChance * 20.20);
 
--- LivingRoomShelf
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeCool-Blue");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeLemon-Lime");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeOrange");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeFruit-Punch");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.ColaBottle");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-
--- LivingRoomSideTable
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeCool-Blue");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeLemon-Lime");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeOrange");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeFruit-Punch");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.ColaBottle");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-
-
 -------------------
 --Alcohol Section--
 -------------------

@@ -127,7 +127,7 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = GatoradeFruitPunch:1.0,
+           fluid           = GatoradeFruit-Punch:1.0,
           }
     }
 }
@@ -411,6 +411,196 @@ item Tonic
              	Fluids
             		{
                 	fluid           = Tonic:1.0,
+            		}
+    }
+}
+
+item SunnyD
+{
+    DisplayName = Sunny D,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/SunnyD,
+    IconFluidMask = Icons/SunnyDMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = SunnyD_Ground,
+    WorldStaticModel = SunnyD_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;CookableMicrowave,
+
+
+    component FluidContainer
+    {
+        ContainerName   = SunnyD,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = SunnyD:1.0,
+            		}
+    }
+}
+
+item CapriSunPacific
+{
+    DisplayName = CapriSun Pacific Cooler,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunPacific,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunPacific_Ground,
+    WorldStaticModel = CapriSunPacific_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSun,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = CapriSunPacificCooler:1.0,
+            		}
+    }
+}
+
+item CapriSunOrange
+{
+    DisplayName = CapriSun Orange,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunOrange,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunOrange_Ground,
+    WorldStaticModel = CapriSunOrange_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSun,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = CapriSunOrange:1.0,
+            		}
+    }
+}
+
+item CapriSunFruit
+{
+    DisplayName = CapriSun Fruit Punch,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunFruit,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunFruit_Ground,
+    WorldStaticModel = CapriSunFruit_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSun,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = CapriSunFruitPunch:1.0,
+            		}
+    }
+}
+
+item Sunset
+{
+    DisplayName = Sunset Sarsaparilla,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/SunSet,
+    IconFluidMask = Icons/SunSetMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = SunSet_Ground,
+    WorldStaticModel = SunSet_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = Glass;GlassBottle,
+
+    component FluidContainer
+    {
+        ContainerName   = Sunset,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = Sarsaparilla:1.0,
+            		}
+    }
+}
+
+item Bundaberg
+{
+    DisplayName = Bundaberg,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/Bundaberg,
+    IconFluidMask = Icons/BundabergMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Bundaberg_Ground,
+    WorldStaticModel = Bundaberg_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = Glass;GlassBottle,
+
+    component FluidContainer
+    {
+        ContainerName   = Bundaberg,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = Sarsaparilla:1.0,
             		}
     }
 }

@@ -1,0 +1,24 @@
+module Mixology
+{
+  imports { Base }
+  
+    craftRecipe MakeKoolAidCherry
+    {
+        timedAction = Making,
+        time = 50,
+        tags = InHandCraft,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.PopBottle;Base.WaterBottle] flags[ItemIsFluid;IsFull],
+            -fluid 1.0 [Water;TaintedWater],
+            item 1 [Mixology.KoolAidPackageCherry],
+        }
+        outputs
+        {
+            item 1 [Base.PopBottle] flags[ForceEmpty],
+            +fluid 1.0 [KoolAidCherry],
+        }
+    }
+
+}

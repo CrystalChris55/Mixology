@@ -164,5 +164,73 @@ item PineAppleSlice
 
 }
 
+item KoolAidPackagePurple
+{
+    DisplayName = KoolAid Package Purplesaurus Rex,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidPurple,
+    StaticModel = KoolAidPurple_Ground,
+    WorldStaticModel = KoolAidPurple_Ground,
+}
 
+item KoolAidPackageGrape
+{
+    DisplayName = KoolAid Package Grape,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidGrape,
+    StaticModel = KoolAidGrape_Ground,
+    WorldStaticModel = KoolAidGrape_Ground,
+}
+
+item KoolAidPackageRock
+{
+    DisplayName = KoolAid Package Rock-a-dile Red,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidRock,
+    StaticModel = KoolAidRock_Ground,
+    WorldStaticModel = KoolAidRock_Ground,
+}
+
+item KoolAidPackageOrange
+{
+    DisplayName = KoolAid Package Orange,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidOrange,
+    StaticModel = KoolAidOrange_Ground,
+    WorldStaticModel = KoolAidOrange_Ground,
+}
+
+item KoolAidPackageStrawberry
+{
+    DisplayName = KoolAid Package Strawberry,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidStrawberry,
+    StaticModel = KoolAidStrawberry_Ground,
+    WorldStaticModel = KoolAidStrawberry_Ground,
+}
+
+item KoolAidPackageTropical
+{
+    DisplayName = KoolAid Package Tropical Punch,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidTropical,
+    StaticModel = KoolAidTropical_Ground,
+    WorldStaticModel = KoolAidTropical_Ground,
+}
+
+item KoolAidPackageCherry
+{
+    DisplayName = KoolAid Package Cherry,
+    DisplayCategory = Food,
+    Weight = 0.2,
+    Icon = Icons/KoolAidCherry,
+    StaticModel = KoolAidCherry_Ground,
+    WorldStaticModel = KoolAidCherry_Ground,
+}
 }

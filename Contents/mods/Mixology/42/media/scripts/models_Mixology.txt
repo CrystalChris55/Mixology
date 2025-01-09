@@ -1084,4 +1084,105 @@ module Mixology
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
+
+	model SunnyD_Ground
+	{
+		mesh = WorldItems/SunnyD,
+		texture = WorldItems/SunnyD,
+		scale = 0.02,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.1068 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model KoolAidPurple_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidPurple,
+		scale = 0.008,
+	}
+
+	model KoolAidGrape_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidGrape,
+		scale = 0.008,
+	}
+
+	model KoolAidRock_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidRock,
+		scale = 0.008,
+	}
+
+	model KoolAidOrange_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidOrange,
+		scale = 0.008,
+	}
+
+	model KoolAidStrawberry_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidStrawberry,
+		scale = 0.008,
+	}
+
+	model KoolAidTropical_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidTropical,
+		scale = 0.008,
+	}
+
+	model KoolAidCherry_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidCherry,
+		scale = 0.008,
+	}
+
+	model CapriSunPacific_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunPacific,
+		scale = 0.02,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.1068 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model CapriSunFruit_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunFruit,
+		scale = 0.02,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.1068 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model CapriSunOrange_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunOrange,
+		scale = 0.02,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.1068 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
 }

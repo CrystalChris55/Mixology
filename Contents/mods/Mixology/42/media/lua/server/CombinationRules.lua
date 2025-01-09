@@ -167,11 +167,11 @@ KnownMixtures = {
     {
         name = "StrawberryDaiquiri",
         inputs = {
-            { fluid = "Rum", minAmount = 0.02 },
-            { fluid = "SodaStrawberry", minAmount = 0.02 },
-            { fluid = "SimpleSyrup", minAmount = 0.01 },
+            { fluid = "Rum",             minAmount = 0.02 },
+            { fluid = "StrawberrySyrup", minAmount = 0.02 },
+            { fluid = "JuiceLime",       minAmount = 0.01 },
         },
-        output = { fluid = "Strawberry Daiquiri", amount = 0.05 }
+        output = { fluid = "StrawberryDaiquiri", amount = 0.05 }
     },
     {
         name = "Mojito",
