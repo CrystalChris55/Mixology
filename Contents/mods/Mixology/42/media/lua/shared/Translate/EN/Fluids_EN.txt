@@ -81,6 +81,7 @@ Fluids_EN = {
         Fluid_Name_BloodyMary = "Bloody Mary",
         Fluid_Name_Negroni = "Negroni",
         Fluid_Name_ChocolateSyrup = "Chocolate Syrup",
+        Fluid_Name_ChocolateSyrup = "Chocolate Syrup",
         Fluid_Name_ChocolateMilkshake = "Chocolate Milkshake",
         Fluid_Name_StrawberryMilkshake = "Strawberry Milkshake",
         Fluid_Name_VanillaMilkshake = "Vanilla Milkshake",
