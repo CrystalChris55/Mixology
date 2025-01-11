@@ -62,7 +62,8 @@ item SkewerPack
 {
     DisplayName = Skewer Package,
     DisplayCategory = Food,
-    Type = Normal,
+    Type = Drainable,
+    UseDelta = 0.05,
     Weight = 0.2,
     Icon = Icons/SkewerPackage,
     StaticModel = SkewerPackage_Ground,

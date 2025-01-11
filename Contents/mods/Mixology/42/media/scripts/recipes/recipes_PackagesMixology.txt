@@ -61,6 +61,21 @@ module Mixology
 			item 1 Base.Cherry,
 		}
 	}
+		craftRecipe TakeASkewer
+	{
+        timedAction = Making,
+		Time = 15,
+		/* CanWalk = true, */
+		Tags = InHandCraft;CanBeDoneInDark,
+		inputs
+		{
+			item 1 [Mixology.SkewerPack],
+		}
+		outputs
+		{
+			item 1 Mixology.Skewer,
+		}
+	}
 	craftRecipe TakeAMint
 	{
         timedAction = Making,

@@ -662,7 +662,7 @@ module Mixology
 
 		attachment Bip01_Prop2
 		{
-			offset = 0.0082 -0.1068 -0.0156,
+			offset = 0.0345 -0.0534 -0.0025,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
@@ -691,53 +691,53 @@ module Mixology
 		}
 	}
 	model CoupeWithSkewer_Ground
-{
-	mesh = WorldItems/CoupeWithSkewer,
-	texture = WorldItems/CoupeSkewer,
-	scale = 0.09,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/CoupeWithSkewer,
+		texture = WorldItems/CoupeSkewer,
+		scale = 0.09,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0378 -0.0526 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model CoupeWithIcecubes_Ground
-{
-	mesh = WorldItems/CoupeWithIcecubes,
-	texture = WorldItems/CoupeSlice,
-	scale = 0.09,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/CoupeWithIcecubes,
+		texture = WorldItems/CoupeSlice,
+		scale = 0.09,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.0501 0.0156,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model ChampagneWithSlice_Ground
-{
-	mesh = WorldItems/ChampagneWithSlice,
-	texture = WorldItems/ChampagneSlice,
-	scale = 0.13,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/ChampagneWithSlice,
+		texture = WorldItems/ChampagneSlice,
+		scale = 0.13,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0230 -0.0493 0.0033,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model MartiniWithSkewer_Ground
-{
-	mesh = WorldItems/MartiniWithSkewer,
-	texture = WorldItems/MartiniSkewer,
-	scale = 0.13,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/MartiniWithSkewer,
+		texture = WorldItems/MartiniSkewer,
+		scale = 0.13,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0345 -0.0411 -0.0123,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model MargaritaWithUmbrella_Ground
 	{
 		mesh = WorldItems/MargaritaWithUmbrella,
@@ -746,7 +746,7 @@ module Mixology
 
 		attachment Bip01_Prop2
 		{
-			offset = 0.0016 -0.1068 -0.0173,
+			offset = 0.0377 -0.0485 0.0090,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
@@ -763,41 +763,41 @@ module Mixology
 	}
 }
 	model MartiniWithIcecubes_Ground
-{
-	mesh = WorldItems/MartiniWithIcecubes,
-	texture = WorldItems/MartiniSlice,
-	scale = 0.13,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/MartiniWithIcecubes,
+		texture = WorldItems/MartiniSlice,
+		scale = 0.13,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0435 -0.0477 -0.0107,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model RocksWithIcecubes_Ground
-{
-	mesh = WorldItems/RocksWithIcecubes,
-	texture = WorldItems/RockIcecubes,
-	scale = 0.09,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/RocksWithIcecubes,
+		texture = WorldItems/RockIcecubes,
+		scale = 0.09,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 -0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model RocksWithSkewer_Ground
-{
-	mesh = WorldItems/RocksWithSkewer,
-	texture = WorldItems/RockSkewer,
-	scale = 0.09,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/RocksWithSkewer,
+		texture = WorldItems/RockSkewer,
+		scale = 0.09,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0123 0.0016 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model CherryJar_Ground
 {
 	mesh = WorldItems/CherryJar,
