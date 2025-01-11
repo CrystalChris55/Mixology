@@ -1918,7 +1918,7 @@ module Mixology
 
     fluid SchnappsMint
         {
-            Color = 0.8 : 0.6 : 0.4,
+            Color = 0.796 : 0.941 : 0.678,
             DisplayName = Fluid_Name_SchnappsMint,
 
             Categories
@@ -1979,7 +1979,7 @@ module Mixology
     fluid MulledWine
         {
             Color = 0.9 : 0.7 : 0.4,
-            DisplayName = Fluid_Name_Sidecar,
+            DisplayName = Fluid_Name_MulledWine,
 
             Categories
             {
@@ -2009,7 +2009,7 @@ module Mixology
     fluid Sambuca
         {
             Color = 0.8 : 0.2 : 0.1,
-            DisplayName = Fluid_Name_Manhattan,
+            DisplayName = Fluid_Name_Sambuca,
 
             Categories
             {
@@ -2068,7 +2068,7 @@ module Mixology
     fluid Jeagermeister
         {
             Color = 0.6 : 0.4 : 0.2,
-            DisplayName = Fluid_Name_Cognac,
+            DisplayName = Fluid_Name_Jeagermeister,
 
             Categories
             {
@@ -2306,7 +2306,7 @@ module Mixology
 
     fluid EnergyDrink
         {
-            Color = 0.38 : 0.83 : 0.4,
+            Color = 0.859 : 0.702 : 0.196,
             DisplayName = Fluid_Name_EnergyDrink,
 
             Categories
@@ -3108,7 +3108,7 @@ fluid LongIslandIcedTea
 
 fluid VodkaRedBull
 {
-    Color = 0.5 : 0.7 : 0.3,
+    Color = 0.859 ; 0.702 ; 0.196,
     DisplayName = Fluid_Name_VodkaRedBull,
 
     Categories
@@ -3787,7 +3787,7 @@ fluid Sarsaparilla
 fluid AppleJack
 {
     Color = 0.671 : 0.4 : 0.024,
-    DisplayName = AppleJack,
+    DisplayName = Fluid_Name_Apple_Jack,
 
     Categories
     {
@@ -3832,6 +3832,34 @@ fluid AppleJack
             unhappyChange = -10,
             calories = 400,
             carbohydrates = 2.08,
+            lipids = 0,
+            proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            foodSicknessReduction = 0,
+        }
+    }
+        fluid WhiteLotusTea
+    {
+        Color  = 0.961 : 0.929 : 0.824,
+        DisplayName = Fluid_Name_White_Lotus_Tea,
+
+        Categories
+        {
+            Beverage,
+        }
+
+        Properties
+        {
+            fatigueChange = -2,
+            hungerChange = -11,
+            stressChange = -10,
+            thirstChange = -105,
+            unhappyChange = -10,
+            calories = 200,
+            carbohydrates = 20.8,
             lipids = 0,
             proteins = 0,
             alcohol = 0,

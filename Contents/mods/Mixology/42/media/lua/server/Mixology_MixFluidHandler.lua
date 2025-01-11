@@ -1,7 +1,6 @@
 -----------------------------------------------------------------------------------------
 -- Dynamic fluid generation function by CassieArtn and CrystalChris                    --
 -----------------------------------------------------------------------------------------
-require "recipecode"
 function CheckAndReplaceMixture(item)
     if not item or type(item.getFluidContainer) ~= "function" then
         return
@@ -9,79 +8,68 @@ function CheckAndReplaceMixture(item)
 
     local fluidContainer = item:getFluidContainer()
     if not fluidContainer then
-        --print("No fluid container found for item")
         return
     end
 
     if type(fluidContainer.contains) ~= "function" or type(fluidContainer.getAmount) ~= "function" then
-        --print("Fluid container not valid")
         return
     end
 
     local totalAmount = fluidContainer:getAmount()
     if type(totalAmount) ~= "number" then
-        --print("Invalid total amount in fluid container")
         return
     end
 
-    --print("Starting mixture check. Total fluid amount in container:", totalAmount)
+    local bestMatch = nil
+    local bestMatchRatio = 0
 
+    -- Iterate through all known mixtures
     for i = 1, #KnownMixtures do
         local mixture = KnownMixtures[i]
         local meetsCriteria = true
         local minAvailableRatio = math.huge
 
-        --print("Checking mixture:", mixture.name)
-
         for j = 1, #mixture.inputs do
             local input = mixture.inputs[j]
             local fluidObj = Fluid.Get(input.fluid)
             if not fluidObj then
-                --print("Fluid not found:", input.fluid)
                 meetsCriteria = false
                 break
             end
 
             if not fluidContainer:contains(fluidObj) then
-                --print("Error: Container does not contain fluid:", input.fluid)
                 meetsCriteria = false
                 break
             end
 
             local availableAmount = fluidContainer:getAmount()
             if type(availableAmount) ~= "number" or availableAmount < input.minAmount then
-                --print("Error: Insufficient amount for fluid:", input.fluid)
-                --print("Required:", input.minAmount, "Available:", availableAmount)
                 meetsCriteria = false
                 break
             end
 
             local ratio = availableAmount / input.minAmount
-            --print("Fluid:", input.fluid, " Available:", availableAmount, " Required:", input.minAmount, " Ratio:", ratio)
             minAvailableRatio = math.min(minAvailableRatio, ratio)
         end
 
-        if meetsCriteria then
-            --print("Meets criteria for mixture:", mixture.name)            
-            local OutputAmount = totalAmount
-            --print("Dynamic output amount calculated:", OutputAmount)
+        -- If it meets criteria, check if it's the best match before to prevent situations like Black Russian > White Russian
+        if meetsCriteria and minAvailableRatio > bestMatchRatio then
+            bestMatch = mixture
+            bestMatchRatio = minAvailableRatio
+        end
+    end
 
-            fluidContainer:Empty()
-            --print("Emptied fluid container")
+    -- Process the best match first if found
+    if bestMatch then
+        local OutputAmount = totalAmount
+        fluidContainer:Empty()
 
-            local resultFluid = Fluid.Get(mixture.output.fluid)
-            if resultFluid then
-                fluidContainer:addFluid(resultFluid, OutputAmount)
-                --print("Mixture created:", mixture.name, " Fluid:", mixture.output.fluid, " Amount:", OutputAmount)
-
-                playBubbleSound()
-            else
-                --print("Error: Output fluid not registered:", mixture.output.fluid)
-            end
-
-            break
+        local resultFluid = Fluid.Get(bestMatch.output.fluid)
+        if resultFluid then
+            fluidContainer:addFluid(resultFluid, OutputAmount)
+            playBubbleSound()
         else
-            --print("Mixture does not meet criteria:", mixture.name)
+            print("Error: Output fluid not registered:", bestMatch.output.fluid)
         end
     end
 end

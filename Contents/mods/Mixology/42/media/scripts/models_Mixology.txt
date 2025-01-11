@@ -694,7 +694,7 @@ module Mixology
 {
 	mesh = WorldItems/CoupeWithSkewer,
 	texture = WorldItems/CoupeSkewer,
-	scale = 0.2,
+	scale = 0.09,
 
 	attachment Bip01_Prop2
 	{

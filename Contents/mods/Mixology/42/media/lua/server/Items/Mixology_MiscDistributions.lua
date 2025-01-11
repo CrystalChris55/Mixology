@@ -247,36 +247,36 @@ table.insert(ProceduralDistributions["list"]["ButcherFreezer"].items,  ItemSpawn
 --------------------------------------------
 
 table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items, "Mixology.MintPackage");
-table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items, "Mixology.SkewerPack");
-table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items, "Mixology.StrawPackage");
-table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items, "Mixology.UmbrellaPackage");
-table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items, "Mixology.CherryJar");
-table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["BarCounterMisc"].items,  ItemSpawnChance * 12.20);
 
 --- Gigamart Spawns ----
 table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Mixology.MintPackage");
-table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Mixology.SkewerPack");
-table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Mixology.StrawPackage");
-table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items, "Mixology.UmbrellaPackage");
-table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["GigamartHousewares"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, "Mixology.CherryJar");
-table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items,  ItemSpawnChance * 12.20);
 
 -- Kitchen Random
 table.insert(ProceduralDistributions["list"]["KitchenRandom"].items, "Mixology.MintPackage");
-table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["KitchenRandom"].items, "Mixology.SkewerPack");
-table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["KitchenRandom"].items, "Mixology.StrawPackage");
-table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["KitchenRandom"].items, "Mixology.UmbrellaPackage");
-table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 12.20);
 table.insert(ProceduralDistributions["list"]["KitchenRandom"].items, "Mixology.CherryJar");
-table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 25.20);
+table.insert(ProceduralDistributions["list"]["KitchenRandom"].items,  ItemSpawnChance * 12.20);
