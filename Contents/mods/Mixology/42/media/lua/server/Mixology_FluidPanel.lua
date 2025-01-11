@@ -1,3 +1,6 @@
+require "ISUI/ISPanel"
+require "ISUI/ISItemDropBox"
+require "FluidDefinitions/ISFluidBar" 
 
 FluidBarPanel = ISPanel:derive("FluidBarPanel")
 

@@ -888,11 +888,11 @@ module Mixology
 	texture = WorldItems/Icecube,
 	scale = 0.09,
 
-	attachment Bip01_Prop2
-	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
-	}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0230 0.0008 -0.0058,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 }
 	model PineAppleSlice_Ground
 {
@@ -900,11 +900,11 @@ module Mixology
 	texture = WorldItems/PineAppleSlice,
 	scale = 0.09,
 
-	attachment Bip01_Prop2
-	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
-	}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0230 0.0008 -0.0058,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 }
 	model LimeSlice_Ground
 {
@@ -912,35 +912,35 @@ module Mixology
 	texture = WorldItems/LimeSlice,
 	scale = 0.09,
 
-	attachment Bip01_Prop2
-	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
-	}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0230 0.0008 -0.0058,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 }
 	model LemonSlice_Ground
-{
-	mesh = WorldItems/LemonSlice,
-	texture = WorldItems/LemonSlice,
-	scale = 0.09,
-
-	attachment Bip01_Prop2
 	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
+		mesh = WorldItems/LemonSlice,
+		texture = WorldItems/LemonSlice,
+		scale = 0.09,
+
+		attachment Bip01_Prop2
+		{
+			offset = -0.0230 0.0008 -0.0058,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
-}
 	model OrangeSlice_Ground
 {
 	mesh = WorldItems/LemonSlice,
 	texture = WorldItems/OrangeSlice,
 	scale = 0.09,
 
-	attachment Bip01_Prop2
-	{
-		offset = 0.0123 -0.1068 0.0000,
-		rotate = 0.0000 0.0000 0.0000,
-	}
+		attachment Bip01_Prop2
+		{
+			offset = -0.0230 0.0008 -0.0058,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 }
 	model StrawberrySyrup_Ground
 {
@@ -954,7 +954,6 @@ module Mixology
 		rotate = 0.0000 0.0000 0.0000,
 	}
 }
-
 	model ChocolateSyrup_Ground
 {
 	mesh = WorldItems/ChocolateSyrup,
@@ -967,7 +966,6 @@ module Mixology
 		rotate = 0.0000 0.0000 0.0000,
 	}
 }
-
 	model PumpkinSyrup_Ground
 {
 	mesh = WorldItems/PumpkinSyrup,
@@ -1058,8 +1056,7 @@ module Mixology
 		texture = WorldItems/Puddle,
 		scale = 0.09,
 	}
-
-		model Tonic_Ground
+	model Tonic_Ground
 	{
 		mesh = WorldItems/TonicBottle,
 		texture = WorldItems/TonicBottle,
@@ -1071,7 +1068,6 @@ module Mixology
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
-
 	model Cachaca_Ground
 	{
 		mesh = WorldItems/Cacacha,
@@ -1082,6 +1078,144 @@ module Mixology
 		{
 			offset = -0.0026 -0.1068 -0.0149,
 			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SunnyD_Ground
+	{
+		mesh = WorldItems/SunnyD,
+		texture = WorldItems/SunnyD,
+		scale = 0.02,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0082 -0.0320 -0.0214,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model KoolAidPurple_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidPurple,
+		scale = 0.008,
+	}
+	model KoolAidGrape_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidGrape,
+		scale = 0.008,
+	}
+	model KoolAidRock_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidRock,
+		scale = 0.008,
+	}
+	model KoolAidOrange_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidOrange,
+		scale = 0.008,
+	}
+	model KoolAidStrawberry_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidStrawberry,
+		scale = 0.008,
+	}
+	model KoolAidTropical_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidTropical,
+		scale = 0.008,
+	}
+	model KoolAidCherry_Ground
+	{
+		mesh = WorldItems/KoolAid,
+		texture = WorldItems/KoolAidCherry,
+		scale = 0.008,
+	}
+	model CapriSunPacific_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunPacific,
+		scale = 0.01,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0033 -0.0017 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CapriSunFruit_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunFruit,
+		scale = 0.01,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0033 -0.0017 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CapriSunOrange_Ground
+	{
+		mesh = WorldItems/CapriSun,
+		texture = WorldItems/CapriSunOrange,
+		scale = 0.01,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0033 -0.0017 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Bundaberg_Ground
+	{
+		mesh = WorldItems/Bundaberg,
+		texture = WorldItems/Bundaberg,
+		scale = 0.05,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0074 -0.0362 -0.0115,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SunSet_Ground
+	{
+		mesh = WorldItems/SunSet,
+		texture = WorldItems/SunSet,
+		scale = 0.05,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0098 -0.0419 -0.0238,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Pitcher_Ground
+	{
+		mesh = WorldItems/Pitcher,
+		texture = WorldItems/Pitcher,
+		scale = 0.07,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0295 -0.0337 0.1627,
+			rotate = -77.4143 47.3939 5.7129,
+		}
+	}
+	model PitcherKool_Ground
+	{
+		mesh = WorldItems/PitcherKool,
+		texture = WorldItems/PitcherKool,
+		scale = 0.07,
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0295 -0.0337 0.1627,
+			rotate = -77.4143 47.3939 5.7129,
 		}
 	}
 }

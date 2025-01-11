@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <animNode x_extends="DrinkBottle.xml">
-	<m_Name>DrinkBoot</m_Name>
-	<m_AnimName>TTRP_ChugJug</m_AnimName>
+	<m_Name>TTRP_CapriSip</m_Name>
+	<m_AnimName>TTRP_CapriSip</m_AnimName>
 	<m_Conditions />
 	<m_Conditions>
 		<m_Name>FoodType</m_Name>
 		<m_Type>STRING</m_Type>
-		<m_StringValue>chugjug</m_StringValue>
+		<m_StringValue>caprisip</m_StringValue>
 	</m_Conditions>
 	<m_SubStateBoneWeights />
 	<m_SubStateBoneWeights />

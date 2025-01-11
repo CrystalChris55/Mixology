@@ -4,14 +4,14 @@ module Mixology
 	craftRecipe AdornChampagneSlice
 	{
         timedAction = SliceFood_Surface,
-                OnCreate = Recipe.OnCreate.MixologyGlassware,
+        OnCreate = Recipe.OnCreate.MixologyGlassware,
 		Time = 70,
 		Tags = AnySurfaceCraft;Cooking,
 		category = Cooking,
 		xpAward = Cooking:8,
 		inputs
 		{       
-                        item 1 [Mixology.ChampagneGlass],
+            item 1 [Mixology.ChampagneGlass],
 			item 1 tags[IsFruitSlice] mode:destroy,
 		}
 		outputs
@@ -22,14 +22,14 @@ module Mixology
 	craftRecipe AdornChampagneStraw
 	{
         timedAction = SliceFood_Surface,
-                OnCreate = Recipe.OnCreate.MixologyGlassware,
+        OnCreate = Recipe.OnCreate.MixologyGlassware,
 		Time = 70,
 		Tags = AnySurfaceCraft;Cooking,
 		category = Cooking,
 		xpAward = Cooking:8,
 		inputs
 		{       
-                        item 1 [Mixology.ChampagneGlass],
+			item 1 [Mixology.ChampagneGlass],
 			item 1 [Base.Straw2] mode:destroy,
 			item 1 tags[IsFruitSlice] mode:destroy,
 		}
@@ -41,14 +41,14 @@ module Mixology
 	craftRecipe AdornHurricaneSlice
 	{
         timedAction = SliceFood_Surface,
-                OnCreate = Recipe.OnCreate.MixologyGlassware,
+        OnCreate = Recipe.OnCreate.MixologyGlassware,
 		Time = 70,
 		Tags = AnySurfaceCraft;Cooking,
 		category = Cooking,
 		xpAward = Cooking:8,
 		inputs
 		{       
-                        item 1 [Mixology.HurricaneGlass],
+            item 1 [Mixology.HurricaneGlass],
 			item 1 tags[IsFruitSlice] mode:destroy,
 		}
 		outputs
@@ -59,7 +59,7 @@ module Mixology
 	craftRecipe AdornHurricaneUmbrella
 	{
         timedAction = SliceFood_Surface,
-                OnCreate = Recipe.OnCreate.MixologyGlassware,
+        OnCreate = Recipe.OnCreate.MixologyGlassware,
 		Time = 70,
 		Tags = AnySurfaceCraft;Cooking,
 		category = Cooking,
@@ -74,6 +74,7 @@ module Mixology
 			item 1 Mixology.HurricaneWithUmbrella,
 		}
 	}
+
 	craftRecipe AdornMargaritaUmbrella
 	{
         timedAction = SliceFood_Surface,
@@ -92,6 +93,7 @@ module Mixology
 			item 1 Mixology.MargaritaWithUmbrella,
 		}
 	}
+
 	craftRecipe AdornMartiniIcecubes
 	{
         timedAction = SliceFood_Surface,
@@ -110,6 +112,7 @@ module Mixology
 			item 1 Mixology.MartiniWithIcecubes,
 		}
 	}
+	
 	craftRecipe AdornMartiniSkewer
 	{
         timedAction = SliceFood_Surface,

@@ -575,4 +575,67 @@ item Cachaca
             		}
     }
 }
+item Sunset
+{
+    DisplayName = Sunset Sarsaparilla,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/SunSet,
+    IconFluidMask = Icons/SunSetMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = SunSet_Ground,
+    WorldStaticModel = SunSet_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = Glass;GlassBottle,
+
+    component FluidContainer
+    {
+        ContainerName   = Sunset,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = Sarsaparilla:1.0,
+            		}
+    }
+}
+
+item Bundaberg
+{
+    DisplayName = Bundaberg,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/Bundaberg,
+    IconFluidMask = Icons/BundabergMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Bundaberg_Ground,
+    WorldStaticModel = Bundaberg_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = Glass;GlassBottle,
+
+    component FluidContainer
+    {
+        ContainerName   = Bundaberg,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = Sarsaparilla:1.0,
+            		}
+    }
+}
 }

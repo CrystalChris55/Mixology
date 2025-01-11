@@ -1,6 +1,7 @@
----------------------------------------------------
+-----------------------------------------------------------
 -- Alcohol Distributions And Sandbox Spawn File          --
----------------------------------------------------
+-----------------------------------------------------------
+---please don't yell at me I tried to comment every distro table I know this is a nigthmare but it works. -- CrystalChris
 
 local ItemSpawnChance = SandboxVars.Mixology.ItemChance
 
@@ -49,14 +50,15 @@ table.insert(ProceduralDistributions["list"]["GasStoreToiletries"].items, "Mixol
 table.insert(ProceduralDistributions["list"]["GasStoreToiletries"].items, ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["GigamartToiletries"].items, "Mixology.Mouthwash");
 table.insert(ProceduralDistributions["list"]["GasStoreToiletries"].items, ItemSpawnChance * 20.20);
---table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Mouthwash");
---table.insert(ProceduralDistributions["list"]["Normal"].items,  1.00);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Mouthwash");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 5.00);
 -----------------
 --Normal Drinks--
 -----------------
 -- Vending
---table.insert(ProceduralDistributions["list"]["vendingpop"].items, "Mixology.ColaBottle");
--- table.insert(ProceduralDistributions["list"]["vendingpop"].items,  18.20);
+--table.insert(distributionTable.all["vendingpop"].items, "Mixology.ColaBottle");
+--table.insert(Distributions["vendingpop"].items,  18.20);
+
 
 -- Hot Dog Drinks
 table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.GatoradeCool-Blue");
@@ -68,6 +70,12 @@ table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSp
 table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.GatoradeFruit-Punch");
 table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSpawnChance * 10.20);
 table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.ColaBottle");
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSpawnChance * 10.20);
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSpawnChance * 10.20);
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSpawnChance * 10.20);
+table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items, "Mixology.CapriSunPacific");
 table.insert(ProceduralDistributions["list"]["HotdogStandDrinks"].items,  ItemSpawnChance * 10.20);
 
 -- Store Shelf Drinks
@@ -81,6 +89,12 @@ table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items, "Mixolog
 table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items, "Mixology.CapriSunPacific");
+table.insert(ProceduralDistributions["list"]["StoreShelfDrinks"].items,  ItemSpawnChance * 20.20);
 
 -- Kitchen Bottles
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.GatoradeCool-Blue");
@@ -92,6 +106,12 @@ table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawn
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.GatoradeFruit-Punch");
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.ColaBottle");
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.CapriSunPacific");
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items,  ItemSpawnChance * 20.20);
 
 -- Gigamart Bottles
@@ -117,6 +137,12 @@ table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "Mixology.Gato
 table.insert(ProceduralDistributions["list"]["FridgeSoda"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["FridgeSoda"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items, "Mixology.CapriSunPacific");
+table.insert(ProceduralDistributions["list"]["FridgeSoda"].items,  ItemSpawnChance * 20.20);
 
 -- Fridge Bottles
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.GatoradeCool-Blue");
@@ -128,6 +154,12 @@ table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnC
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.GatoradeFruit-Punch");
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.ColaBottle");
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.CapriSunPacific");
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items,  ItemSpawnChance * 20.20);
 
 -- Fridge Other
@@ -153,6 +185,12 @@ table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "Mix
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "Mixology.CapriSunPacific");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items,  ItemSpawnChance * 20.20);
 
 -- GroceryStorageCrate2
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mixology.GatoradeCool-Blue");
@@ -165,6 +203,12 @@ table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mix
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "Mixology.CapriSunPacific");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items,  ItemSpawnChance * 20.20);
 
 -- GroceryStorageCrate3
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.GatoradeCool-Blue");
@@ -176,6 +220,12 @@ table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  Ite
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.GatoradeFruit-Punch");
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  ItemSpawnChance * 20.20);
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.ColaBottle");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.CapriSunFruit");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.CapriSunOrange");
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  ItemSpawnChance * 20.20);
+table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "Mixology.CapriSunPacific");
 table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items,  ItemSpawnChance * 20.20);
 
 -- KitchenFridge
@@ -226,31 +276,6 @@ table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items,  ItemSpa
 table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items, "Mixology.ColaBottle");
 table.insert(ProceduralDistributions["list"]["SafehouseFreezer"].items,  ItemSpawnChance * 20.20);
 
--- LivingRoomShelf
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeCool-Blue");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeLemon-Lime");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeOrange");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.GatoradeFruit-Punch");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items, "Mixology.ColaBottle");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelf"].items,  ItemSpawnChance * 20.20);
-
--- LivingRoomSideTable
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeCool-Blue");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeLemon-Lime");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeOrange");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.GatoradeFruit-Punch");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items, "Mixology.ColaBottle");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTable"].items,  ItemSpawnChance * 20.20);
-
-
 -------------------
 --Alcohol Section--
 -------------------
@@ -287,6 +312,8 @@ table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items, "Mixolog
 table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items,  ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items,  ItemSpawnChance * 5.20);
+table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items, "Mixology.Bundaberg");
+table.insert(ProceduralDistributions["list"]["BarCounterLiquor"].items,  ItemSpawnChance * 5.20);
 
 -- Bar Shelf
 table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items, "Mixology.Aperol");
@@ -319,6 +346,8 @@ table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items, "Mixology.
 table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items,  ItemSpawnChance * 10.20);
 table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items,  ItemSpawnChance * 10.20);
+table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items, "Mixology.Bundaberg");
+table.insert(ProceduralDistributions["list"]["BarShelfLiquor"].items,  ItemSpawnChance * 5.20);
 
 -- Crate Liquor
 table.insert(ProceduralDistributions["list"]["CrateLiquor"].items, "Mixology.Aperol");
@@ -351,6 +380,8 @@ table.insert(ProceduralDistributions["list"]["CrateLiquor"].items, "Mixology.Jea
 table.insert(ProceduralDistributions["list"]["CrateLiquor"].items,  ItemSpawnChance * 10.20);
 table.insert(ProceduralDistributions["list"]["CrateLiquor"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["CrateLiquor"].items,  ItemSpawnChance * 10.20);
+table.insert(ProceduralDistributions["list"]["CrateLiquor"].items, "Mixology.Bundaberg");
+table.insert(ProceduralDistributions["list"]["CrateLiquor"].items,  ItemSpawnChance * 5.20);
 
 -- Fridge Beer
 table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, "Mixology.Aperol");
@@ -383,6 +414,8 @@ table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, "Mixology.Jeag
 table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, ItemSpawnChance * 5.20);
+table.insert(ProceduralDistributions["list"]["FridgeBeer"].items, "Mixology.Bundaberg");
+table.insert(ProceduralDistributions["list"]["FridgeBeer"].items,  ItemSpawnChance * 5.20);
 
 --Fridge Bottles
 table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Mixology.Aperol");
@@ -480,70 +513,6 @@ table.insert(ProceduralDistributions["list"]["DishCabinetLiquor"].items, ItemSpa
 table.insert(ProceduralDistributions["list"]["DishCabinetLiquor"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["DishCabinetLiquor"].items, ItemSpawnChance * 5.20);
 
--- LivingRoomShelfClassy
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Aperol");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Fireball");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Bailey");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Bols");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.IceWine");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Kvass");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Moonshine");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.SchnappsSigma");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.SchnappsMint");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Soju");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.MulledWine");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Sambuca");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Sake");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Jeagermeister");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, "Mixology.Ouzo");
-table.insert(ProceduralDistributions["list"]["LivingRoomShelfClassy"].items, ItemSpawnChance * 5.20);
-
--- Living Room Side Table Classy
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Aperol");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Fireball");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Bailey");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Bols");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.IceWine");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Kvass");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Moonshine");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * .20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.SchnappsSigma");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.SchnappsMint");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Soju");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.MulledWine");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Sambuca");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Sake");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Jeagermeister");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, "Mixology.Ouzo");
-table.insert(ProceduralDistributions["list"]["LivingRoomSideTableClassy"].items, ItemSpawnChance * 5.20);
-
 -- FridgeVIPLounge
 table.insert(ProceduralDistributions["list"]["FridgeVIPLounge"].items, "Mixology.Aperol");
 table.insert(ProceduralDistributions["list"]["FridgeVIPLounge"].items, ItemSpawnChance * 5.20);
@@ -589,8 +558,6 @@ table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, "Mixology
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, "Mixology.Kvass");
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, "Mixology.Moonshine");
-table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, "Mixology.SchnappsSigma");
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeer"].items, "Mixology.SchnappsMint");
@@ -620,8 +587,6 @@ table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, Item
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, "Mixology.IceWine");
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, "Mixology.Kvass");
-table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, ItemSpawnChance * 5.20);
-table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, "Mixology.Moonshine");
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, ItemSpawnChance * 5.20);
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, "Mixology.SchnappsSigma");
 table.insert(ProceduralDistributions["list"]["LiquorStoreBeerFancy"].items, ItemSpawnChance * 5.20);
@@ -1120,34 +1085,80 @@ table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, ItemSpawnC
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "Mixology.Ouzo");
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, ItemSpawnChance * 1.0);
 
--- Car Gloveboxes
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Aperol");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Fireball");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Bailey");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Bols");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.IceWine");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Kvass");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Moonshine");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.SchnappsSigma");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.SchnappsMint");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Soju");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.MulledWine");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Sambuca");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Sake");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Jeagermeister");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
--- table.insert(ProceduralDistributions["list"]["Normal"].items, "Mixology.Ouzo");
--- table.insert(ProceduralDistributions["list"]["Normal"].items, 0.01);
+-- Car NormalStandards
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Aperol");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Fireball");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Bailey");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Bols");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.IceWine");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Kvass");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Moonshine");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.SchnappsSigma");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.SchnappsMint");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Soju");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.MulledWine");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Sambuca");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Sake");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Jeagermeister");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Ouzo");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 0.01);
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, "Mixology.Mouthwash");
+table.insert(VehicleDistributions.NormalStandard["GloveBox"].items, ItemSpawnChance * 21.01);
+
+-- Car Drinkers
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Aperol");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Fireball");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Bailey");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Bols");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.IceWine");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Kvass");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Moonshine");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.SchnappsSigma");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.SchnappsMint");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Soju");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.MulledWine");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Sambuca");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Sake");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Jeagermeister");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Ouzo");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Mouthwash");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 31.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Sunset");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, "Mixology.Bundaberg");
+table.insert(VehicleDistributions.Drinker["GloveBox"].items, ItemSpawnChance * 1.1);
+
+-- PawnShop spawnchance --
+table.insert(ProceduralDistributions["list"]["PawnShopTools"].items, "Mixology.Sunset");
+table.insert(ProceduralDistributions["list"]["PawnShopTools"].items, ItemSpawnChance * 1.0);
+table.insert(ProceduralDistributions["list"]["PawnShopTools"].items, "Mixology.Moonshine");
+table.insert(ProceduralDistributions["list"]["PawnShopTools"].items, ItemSpawnChance * 1.0);

@@ -5,7 +5,8 @@
 -- 0.01 is equivalent to 10ml ingame.
 -- 0.1 is equivalent to 100ml ingame.
 -- 1.0 is 1 liter ingame. 
-
+-- The average water bottle and most small containers are 200ml.
+-- A full alcohol bottle is usually 1 liter.
 
 
 -- if KnownMixtures then
@@ -19,8 +20,11 @@
 --     })
 -- end
 
+------------------------------------------
+-- Example of adding multiple mixtures. --
+------------------------------------------
 
--- Example of adding multiple mixtures.
+
 -- if KnownMixtures then
 --     table.insert(KnownMixtures, {
 --         name = "CustomMixture1",

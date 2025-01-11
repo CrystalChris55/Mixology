@@ -61,7 +61,7 @@ item GatoradeCool-Blue
 
         Fluids
           {
-           fluid           = GatoradeLemon-Lime:1.0,
+           fluid           = GatoradeLemonLime:1.0,
           }
     }
 }
@@ -414,4 +414,134 @@ item Tonic
             		}
     }
 }
+
+item SunnyD
+{
+    DisplayName = Sunny D,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/SunnyD,
+    IconFluidMask = Icons/SunnyDMask,
+    secondaryAnimMask = drinkIdle,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = SunnyD_Ground,
+    WorldStaticModel = SunnyD_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;CookableMicrowave,
+
+
+    component FluidContainer
+    {
+        ContainerName   = SunnyD,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromBottlePlastic,
+             	Fluids
+            		{
+                	fluid           = SunnyD:1.0,
+            		}
+    }
+}
+
+item CapriSunPacific
+{
+    DisplayName = CapriSun Pacific Cooler,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunPacific,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunPacific_Ground,
+    WorldStaticModel = CapriSunPacific_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+    EatType = caprisip,
+
+
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSunPouch,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = BIGSLURPIN,
+             	Fluids
+            		{
+                	fluid           = CapriSunPacificCooler:1.0,
+            		}
+    }
+}
+
+item CapriSunOrange
+{
+    DisplayName = CapriSun Orange,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunOrange,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunOrange_Ground,
+    WorldStaticModel = CapriSunOrange_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+    EatType = caprisip,
+
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSunPouch,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = BIGSLURPIN,
+             	Fluids
+            		{
+                	fluid           = CapriSunOrange:1.0,
+            		}
+    }
+}
+
+item CapriSunFruit
+{
+    DisplayName = CapriSun Fruit Punch,
+    DisplayCategory = Food,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/CapriSunFruit,
+    secondaryAnimMask = drinkIdle,
+    StaticModel = CapriSunFruit_Ground,
+    WorldStaticModel = CapriSunFruit_Ground,
+    Packaged = TRUE,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = SealedBeverageCan,
+    EatType = caprisip,
+
+    component FluidContainer
+    {
+        ContainerName   = CapriSunPouch,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = BIGSLURPIN,
+             	Fluids
+            		{
+                	fluid           = CapriSunFruitPunch:1.0,
+            		}
+    }
+}
+
 }

@@ -167,11 +167,11 @@ KnownMixtures = {
     {
         name = "StrawberryDaiquiri",
         inputs = {
-            { fluid = "Rum", minAmount = 0.02 },
-            { fluid = "SodaStrawberry", minAmount = 0.02 },
-            { fluid = "SimpleSyrup", minAmount = 0.01 },
+            { fluid = "Rum",             minAmount = 0.02 },
+            { fluid = "StrawberrySyrup", minAmount = 0.02 },
+            { fluid = "JuiceLime",       minAmount = 0.01 },
         },
-        output = { fluid = "Strawberry Daiquiri", amount = 0.05 }
+        output = { fluid = "StrawberryDaiquiri", amount = 0.05 }
     },
     {
         name = "Mojito",
@@ -403,7 +403,7 @@ KnownMixtures = {
     {
         name = "Gatorwine",
         inputs = {
-            { fluid = "GatoradeLemon-Lime", minAmount = 0.02 },
+            { fluid = "GatoradeLemonLime", minAmount = 0.02 },
             { fluid = "Wine", minAmount = 0.02 },
         },
         output = { fluid = "Gatorwine", amount = 0.04 }
@@ -764,5 +764,32 @@ KnownMixtures = {
             { fluid = "EnergyDrink", minAmount = 0.02 },
         },
         output = { fluid = "IrishTrashCan", amount = 0.05 }
+    },
+    {
+        name = "AppleJack",
+        inputs = {
+            { fluid = "JuiceApple",       minAmount = 0.02 },
+            { fluid = "Whiskey",         minAmount = 0.02 },
+            { fluid = "SodaGingerAle",         minAmount = 0.01 },
+        },
+        output = { fluid = "AppleJack", amount = 0.05 }
+    },
+    {
+        name = "VirginMargarita",
+        inputs = {
+            { fluid = "JuiceLime",       minAmount = 0.02 },
+            { fluid = "SodaLime",         minAmount = 0.02 },
+            { fluid = "SimpleSyrup",         minAmount = 0.01 },
+        },
+        output = { fluid = "VirginMargarita", amount = 0.05 }
+    },
+    {
+        name = "UnVirginYourMargarita",
+        inputs = {
+            { fluid = "Tequila",   minAmount = 0.02 },
+            { fluid = "Bols",         minAmount = 0.02 },
+            { fluid = "VirginMargarita",         minAmount = 0.01 },
+        },
+        output = { fluid = "Margarita", amount = 0.05 }
     },
 }

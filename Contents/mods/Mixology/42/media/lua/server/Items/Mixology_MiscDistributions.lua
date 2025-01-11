@@ -1,6 +1,7 @@
 ---------------------------------------------------
 -- Glassware Distributions And Sandbox Spawn File          --
 ---------------------------------------------------
+---please don't yell at me I tried to comment every distro table I know this is a nigthmare but it works. -- CrystalChris
 
 local ItemSpawnChance = SandboxVars.Mixology.ItemChance
 

@@ -186,7 +186,7 @@ item BeerGlass
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;KoolAidMixer,
 
 
     component FluidContainer
@@ -215,7 +215,7 @@ item BootGlass
     FillFromLakeSound = GetWaterFromLakeBottle,
     FillFromTapSound = GetWaterFromTapGlass,
     FillFromToiletSound = GetWaterFromToilet,
-    Tags = CoffeeMaker,
+    Tags = CoffeeMaker;KoolAidMixer,
     EatType = chugjug,
 
 
@@ -1283,5 +1283,64 @@ item ChampagneWithSlice
         CustomDrinkSound = DrinkingFromMug,
     }
 }
+item Pitcher
+{
+    DisplayName = Pitcher,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/PitcherIcon,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/PitcherIconMask,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = Pitcher_Ground,
+    WorldStaticModel = Pitcher_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;KoolAidMixer,
+    primaryAnimMask = chugjugidle,
+    secondaryAnimMask = chugjugidle,
+    EatType = chugjug,
 
+
+    component FluidContainer
+    {
+        ContainerName   = Pitcher,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
+item PitcherKool
+{
+    DisplayName = PitcherKool,
+    DisplayCategory = WaterContainer,
+    Type = Normal,
+    Weight = 0.1,
+    Icon = Icons/PitcherKoolIcon,
+    secondaryAnimMask = drinkIdle,
+    IconFluidMask = Icons/PitcherKoolIconMask,
+    Tooltip = Tooltip_item_RainFromGround,
+    StaticModel = PitcherKool_Ground,
+    WorldStaticModel = PitcherKool_Ground,
+    FillFromDispenserSound = GetWaterFromDispenserGlass,
+    FillFromLakeSound = GetWaterFromLakeBottle,
+    FillFromTapSound = GetWaterFromTapGlass,
+    FillFromToiletSound = GetWaterFromToilet,
+    Tags = CoffeeMaker;KoolAidMixer,
+    primaryAnimMask = chugjugidle,
+    secondaryAnimMask = chugjugidle,
+    EatType = chugjug,
+
+
+    component FluidContainer
+    {
+        ContainerName   = PitcherKool,
+        RainFactor      = 0.5,
+        capacity        = 1.0,
+        CustomDrinkSound = DrinkingFromMug,
+    }
+}
 }
